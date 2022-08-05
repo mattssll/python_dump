@@ -1,0 +1,2244 @@
+MyApp: WARNING - 2021-06-15 12:30:59,958 - process_metadata - Starting to process metadata
+MyApp: DEBUG - 2021-06-15 12:31:26,450 - java_gateway - Command to send: A
+10a1f3ffe8af0f0640ae10023f26401bcde6c9932597b682f75223b254e618c2
+
+MyApp: DEBUG - 2021-06-15 12:31:26,479 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:26,480 - java_gateway - Command to send: j
+i
+rj
+org.apache.spark.SparkConf
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,482 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:26,483 - java_gateway - Command to send: j
+i
+rj
+org.apache.spark.api.java.*
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,483 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:26,483 - java_gateway - Command to send: j
+i
+rj
+org.apache.spark.api.python.*
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,484 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:26,484 - java_gateway - Command to send: j
+i
+rj
+org.apache.spark.ml.python.*
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,484 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:26,485 - java_gateway - Command to send: j
+i
+rj
+org.apache.spark.mllib.api.python.*
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,485 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:26,485 - java_gateway - Command to send: j
+i
+rj
+org.apache.spark.resource.*
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,486 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:26,486 - java_gateway - Command to send: j
+i
+rj
+org.apache.spark.sql.*
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,486 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:26,486 - java_gateway - Command to send: j
+i
+rj
+org.apache.spark.sql.api.python.*
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,487 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:26,487 - java_gateway - Command to send: j
+i
+rj
+org.apache.spark.sql.hive.*
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,487 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:26,487 - java_gateway - Command to send: j
+i
+rj
+scala.Tuple2
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,488 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:26,488 - java_gateway - Command to send: r
+u
+SparkConf
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,493 - java_gateway - Answer received: !ycorg.apache.spark.SparkConf
+MyApp: DEBUG - 2021-06-15 12:31:26,493 - java_gateway - Command to send: i
+org.apache.spark.SparkConf
+bTrue
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,505 - java_gateway - Answer received: !yro0
+MyApp: DEBUG - 2021-06-15 12:31:26,506 - java_gateway - Command to send: c
+o0
+set
+sspark.app.name
+sPython Spark SQL basic example
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,514 - java_gateway - Answer received: !yro1
+MyApp: DEBUG - 2021-06-15 12:31:26,515 - java_gateway - Command to send: m
+d
+o1
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,515 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:26,516 - java_gateway - Command to send: c
+o0
+set
+sspark.executor.memory
+s8g
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,516 - java_gateway - Answer received: !yro2
+MyApp: DEBUG - 2021-06-15 12:31:26,516 - java_gateway - Command to send: m
+d
+o2
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,517 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:26,517 - java_gateway - Command to send: c
+o0
+set
+sspark.cores.max
+s4
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,518 - java_gateway - Answer received: !yro3
+MyApp: DEBUG - 2021-06-15 12:31:26,518 - java_gateway - Command to send: m
+d
+o3
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,519 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:26,519 - java_gateway - Command to send: c
+o0
+set
+sspark.driver.memory
+s8g
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,520 - java_gateway - Answer received: !yro4
+MyApp: DEBUG - 2021-06-15 12:31:26,520 - java_gateway - Command to send: m
+d
+o4
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,520 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:26,521 - java_gateway - Command to send: c
+o0
+contains
+sspark.serializer.objectStreamReset
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,522 - java_gateway - Answer received: !ybfalse
+MyApp: DEBUG - 2021-06-15 12:31:26,522 - java_gateway - Command to send: c
+o0
+set
+sspark.serializer.objectStreamReset
+s100
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,523 - java_gateway - Answer received: !yro5
+MyApp: DEBUG - 2021-06-15 12:31:26,523 - java_gateway - Command to send: m
+d
+o5
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,523 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:26,524 - java_gateway - Command to send: c
+o0
+contains
+sspark.rdd.compress
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,524 - java_gateway - Answer received: !ybfalse
+MyApp: DEBUG - 2021-06-15 12:31:26,525 - java_gateway - Command to send: c
+o0
+set
+sspark.rdd.compress
+sTrue
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,525 - java_gateway - Answer received: !yro6
+MyApp: DEBUG - 2021-06-15 12:31:26,525 - java_gateway - Command to send: m
+d
+o6
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,526 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:26,526 - java_gateway - Command to send: c
+o0
+contains
+sspark.master
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,527 - java_gateway - Answer received: !ybtrue
+MyApp: DEBUG - 2021-06-15 12:31:26,527 - java_gateway - Command to send: c
+o0
+contains
+sspark.app.name
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,527 - java_gateway - Answer received: !ybtrue
+MyApp: DEBUG - 2021-06-15 12:31:26,528 - java_gateway - Command to send: c
+o0
+contains
+sspark.master
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,528 - java_gateway - Answer received: !ybtrue
+MyApp: DEBUG - 2021-06-15 12:31:26,528 - java_gateway - Command to send: c
+o0
+get
+sspark.master
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,529 - java_gateway - Answer received: !yslocal[*]
+MyApp: DEBUG - 2021-06-15 12:31:26,530 - java_gateway - Command to send: c
+o0
+contains
+sspark.app.name
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,530 - java_gateway - Answer received: !ybtrue
+MyApp: DEBUG - 2021-06-15 12:31:26,530 - java_gateway - Command to send: c
+o0
+get
+sspark.app.name
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,531 - java_gateway - Answer received: !ysPython Spark SQL basic example
+MyApp: DEBUG - 2021-06-15 12:31:26,531 - java_gateway - Command to send: c
+o0
+contains
+sspark.home
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,532 - java_gateway - Answer received: !ybfalse
+MyApp: DEBUG - 2021-06-15 12:31:26,532 - java_gateway - Command to send: c
+o0
+getAll
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,533 - java_gateway - Answer received: !yto7
+MyApp: DEBUG - 2021-06-15 12:31:26,533 - java_gateway - Command to send: a
+e
+o7
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,533 - java_gateway - Answer received: !yi10
+MyApp: DEBUG - 2021-06-15 12:31:26,534 - java_gateway - Command to send: a
+g
+o7
+i0
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,534 - java_gateway - Answer received: !yro8
+MyApp: DEBUG - 2021-06-15 12:31:26,534 - java_gateway - Command to send: c
+o8
+_1
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,536 - java_gateway - Answer received: !ysspark.rdd.compress
+MyApp: DEBUG - 2021-06-15 12:31:26,536 - java_gateway - Command to send: c
+o8
+_2
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,537 - java_gateway - Answer received: !ysTrue
+MyApp: DEBUG - 2021-06-15 12:31:26,537 - java_gateway - Command to send: a
+e
+o7
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,537 - java_gateway - Answer received: !yi10
+MyApp: DEBUG - 2021-06-15 12:31:26,537 - java_gateway - Command to send: a
+g
+o7
+i1
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,538 - java_gateway - Answer received: !yro9
+MyApp: DEBUG - 2021-06-15 12:31:26,539 - java_gateway - Command to send: c
+o9
+_1
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,539 - java_gateway - Answer received: !ysspark.driver.memory
+MyApp: DEBUG - 2021-06-15 12:31:26,540 - java_gateway - Command to send: c
+o9
+_2
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,540 - java_gateway - Answer received: !ys8g
+MyApp: DEBUG - 2021-06-15 12:31:26,540 - java_gateway - Command to send: a
+e
+o7
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,541 - java_gateway - Answer received: !yi10
+MyApp: DEBUG - 2021-06-15 12:31:26,541 - java_gateway - Command to send: a
+g
+o7
+i2
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,541 - java_gateway - Answer received: !yro10
+MyApp: DEBUG - 2021-06-15 12:31:26,541 - java_gateway - Command to send: c
+o10
+_1
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,542 - java_gateway - Answer received: !ysspark.serializer.objectStreamReset
+MyApp: DEBUG - 2021-06-15 12:31:26,542 - java_gateway - Command to send: c
+o10
+_2
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,542 - java_gateway - Answer received: !ys100
+MyApp: DEBUG - 2021-06-15 12:31:26,543 - java_gateway - Command to send: a
+e
+o7
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,543 - java_gateway - Answer received: !yi10
+MyApp: DEBUG - 2021-06-15 12:31:26,543 - java_gateway - Command to send: a
+g
+o7
+i3
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,544 - java_gateway - Answer received: !yro11
+MyApp: DEBUG - 2021-06-15 12:31:26,544 - java_gateway - Command to send: c
+o11
+_1
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,545 - java_gateway - Answer received: !ysspark.master
+MyApp: DEBUG - 2021-06-15 12:31:26,545 - java_gateway - Command to send: c
+o11
+_2
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,546 - java_gateway - Answer received: !yslocal[*]
+MyApp: DEBUG - 2021-06-15 12:31:26,546 - java_gateway - Command to send: a
+e
+o7
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,546 - java_gateway - Answer received: !yi10
+MyApp: DEBUG - 2021-06-15 12:31:26,546 - java_gateway - Command to send: a
+g
+o7
+i4
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,547 - java_gateway - Answer received: !yro12
+MyApp: DEBUG - 2021-06-15 12:31:26,547 - java_gateway - Command to send: c
+o12
+_1
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,548 - java_gateway - Answer received: !ysspark.executor.memory
+MyApp: DEBUG - 2021-06-15 12:31:26,548 - java_gateway - Command to send: c
+o12
+_2
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,549 - java_gateway - Answer received: !ys8g
+MyApp: DEBUG - 2021-06-15 12:31:26,550 - java_gateway - Command to send: a
+e
+o7
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,551 - java_gateway - Answer received: !yi10
+MyApp: DEBUG - 2021-06-15 12:31:26,551 - java_gateway - Command to send: a
+g
+o7
+i5
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,554 - java_gateway - Answer received: !yro13
+MyApp: DEBUG - 2021-06-15 12:31:26,557 - java_gateway - Command to send: c
+o13
+_1
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,558 - java_gateway - Answer received: !ysspark.submit.pyFiles
+MyApp: DEBUG - 2021-06-15 12:31:26,558 - java_gateway - Command to send: c
+o13
+_2
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,559 - java_gateway - Answer received: !ys
+MyApp: DEBUG - 2021-06-15 12:31:26,559 - java_gateway - Command to send: a
+e
+o7
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,560 - java_gateway - Answer received: !yi10
+MyApp: DEBUG - 2021-06-15 12:31:26,560 - java_gateway - Command to send: a
+g
+o7
+i6
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,560 - java_gateway - Answer received: !yro14
+MyApp: DEBUG - 2021-06-15 12:31:26,561 - java_gateway - Command to send: c
+o14
+_1
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,561 - java_gateway - Answer received: !ysspark.app.name
+MyApp: DEBUG - 2021-06-15 12:31:26,562 - java_gateway - Command to send: c
+o14
+_2
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,562 - java_gateway - Answer received: !ysPython Spark SQL basic example
+MyApp: DEBUG - 2021-06-15 12:31:26,562 - java_gateway - Command to send: a
+e
+o7
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,563 - java_gateway - Answer received: !yi10
+MyApp: DEBUG - 2021-06-15 12:31:26,563 - java_gateway - Command to send: a
+g
+o7
+i7
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,564 - java_gateway - Answer received: !yro15
+MyApp: DEBUG - 2021-06-15 12:31:26,564 - java_gateway - Command to send: c
+o15
+_1
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,565 - java_gateway - Answer received: !ysspark.submit.deployMode
+MyApp: DEBUG - 2021-06-15 12:31:26,565 - java_gateway - Command to send: c
+o15
+_2
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,566 - java_gateway - Answer received: !ysclient
+MyApp: DEBUG - 2021-06-15 12:31:26,566 - java_gateway - Command to send: a
+e
+o7
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,566 - java_gateway - Answer received: !yi10
+MyApp: DEBUG - 2021-06-15 12:31:26,567 - java_gateway - Command to send: a
+g
+o7
+i8
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,567 - java_gateway - Answer received: !yro16
+MyApp: DEBUG - 2021-06-15 12:31:26,568 - java_gateway - Command to send: c
+o16
+_1
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,568 - java_gateway - Answer received: !ysspark.ui.showConsoleProgress
+MyApp: DEBUG - 2021-06-15 12:31:26,569 - java_gateway - Command to send: c
+o16
+_2
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,569 - java_gateway - Answer received: !ystrue
+MyApp: DEBUG - 2021-06-15 12:31:26,570 - java_gateway - Command to send: a
+e
+o7
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,570 - java_gateway - Answer received: !yi10
+MyApp: DEBUG - 2021-06-15 12:31:26,570 - java_gateway - Command to send: a
+g
+o7
+i9
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,571 - java_gateway - Answer received: !yro17
+MyApp: DEBUG - 2021-06-15 12:31:26,571 - java_gateway - Command to send: c
+o17
+_1
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,572 - java_gateway - Answer received: !ysspark.cores.max
+MyApp: DEBUG - 2021-06-15 12:31:26,572 - java_gateway - Command to send: c
+o17
+_2
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,573 - java_gateway - Answer received: !ys4
+MyApp: DEBUG - 2021-06-15 12:31:26,573 - java_gateway - Command to send: a
+e
+o7
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,574 - java_gateway - Answer received: !yi10
+MyApp: DEBUG - 2021-06-15 12:31:26,574 - java_gateway - Command to send: m
+d
+o7
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,574 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:26,575 - java_gateway - Command to send: r
+u
+JavaSparkContext
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:26,648 - java_gateway - Answer received: !ycorg.apache.spark.api.java.JavaSparkContext
+MyApp: DEBUG - 2021-06-15 12:31:26,648 - java_gateway - Command to send: i
+org.apache.spark.api.java.JavaSparkContext
+ro0
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,489 - java_gateway - Answer received: !yro18
+MyApp: DEBUG - 2021-06-15 12:31:30,489 - java_gateway - Command to send: c
+o18
+sc
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,501 - java_gateway - Answer received: !yro19
+MyApp: DEBUG - 2021-06-15 12:31:30,501 - java_gateway - Command to send: c
+o19
+conf
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,530 - java_gateway - Answer received: !yro20
+MyApp: DEBUG - 2021-06-15 12:31:30,532 - java_gateway - Command to send: r
+u
+PythonAccumulatorV2
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,535 - java_gateway - Answer received: !ycorg.apache.spark.api.python.PythonAccumulatorV2
+MyApp: DEBUG - 2021-06-15 12:31:30,536 - java_gateway - Command to send: i
+org.apache.spark.api.python.PythonAccumulatorV2
+s127.0.0.1
+i53504
+s10a1f3ffe8af0f0640ae10023f26401bcde6c9932597b682f75223b254e618c2
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,536 - java_gateway - Answer received: !yro21
+MyApp: DEBUG - 2021-06-15 12:31:30,537 - java_gateway - Command to send: c
+o18
+sc
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,537 - java_gateway - Answer received: !yro22
+MyApp: DEBUG - 2021-06-15 12:31:30,537 - java_gateway - Command to send: c
+o22
+register
+ro21
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,541 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:30,541 - java_gateway - Command to send: r
+u
+PythonUtils
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,543 - java_gateway - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+MyApp: DEBUG - 2021-06-15 12:31:30,543 - java_gateway - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+isEncryptionEnabled
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,544 - java_gateway - Answer received: !ym
+MyApp: DEBUG - 2021-06-15 12:31:30,544 - java_gateway - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+isEncryptionEnabled
+ro18
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,547 - java_gateway - Answer received: !ybfalse
+MyApp: DEBUG - 2021-06-15 12:31:30,547 - java_gateway - Command to send: r
+u
+PythonUtils
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,549 - java_gateway - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+MyApp: DEBUG - 2021-06-15 12:31:30,549 - java_gateway - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+getPythonAuthSocketTimeout
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,550 - java_gateway - Answer received: !ym
+MyApp: DEBUG - 2021-06-15 12:31:30,550 - java_gateway - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+getPythonAuthSocketTimeout
+ro18
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,551 - java_gateway - Answer received: !yL15
+MyApp: DEBUG - 2021-06-15 12:31:30,551 - java_gateway - Command to send: r
+u
+PythonUtils
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,553 - java_gateway - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+MyApp: DEBUG - 2021-06-15 12:31:30,553 - java_gateway - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+getSparkBufferSize
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,554 - java_gateway - Answer received: !ym
+MyApp: DEBUG - 2021-06-15 12:31:30,554 - java_gateway - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+getSparkBufferSize
+ro18
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,554 - java_gateway - Answer received: !yi65536
+MyApp: DEBUG - 2021-06-15 12:31:30,555 - java_gateway - Command to send: r
+u
+org
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,558 - java_gateway - Answer received: !yp
+MyApp: DEBUG - 2021-06-15 12:31:30,559 - java_gateway - Command to send: r
+u
+org.apache
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,561 - java_gateway - Answer received: !yp
+MyApp: DEBUG - 2021-06-15 12:31:30,561 - java_gateway - Command to send: r
+u
+org.apache.spark
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,562 - java_gateway - Answer received: !yp
+MyApp: DEBUG - 2021-06-15 12:31:30,562 - java_gateway - Command to send: r
+u
+org.apache.spark.SparkFiles
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,563 - java_gateway - Answer received: !ycorg.apache.spark.SparkFiles
+MyApp: DEBUG - 2021-06-15 12:31:30,563 - java_gateway - Command to send: r
+m
+org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,564 - java_gateway - Answer received: !ym
+MyApp: DEBUG - 2021-06-15 12:31:30,564 - java_gateway - Command to send: c
+z:org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,566 - java_gateway - Answer received: !ys/private/var/folders/pq/q7jrs6pj20zf2bdr__jyzd080000gq/T/spark-40d6e6f6-f2dc-49c0-a584-7ef388870180/userFiles-5d3e5dd7-df85-44d9-b62a-c8f38bf29e91
+MyApp: DEBUG - 2021-06-15 12:31:30,567 - java_gateway - Command to send: c
+o20
+get
+sspark.submit.pyFiles
+s
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,567 - java_gateway - Answer received: !ys
+MyApp: DEBUG - 2021-06-15 12:31:30,568 - java_gateway - Command to send: r
+u
+org
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,573 - java_gateway - Answer received: !yp
+MyApp: DEBUG - 2021-06-15 12:31:30,573 - java_gateway - Command to send: r
+u
+org.apache
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,574 - java_gateway - Answer received: !yp
+MyApp: DEBUG - 2021-06-15 12:31:30,574 - java_gateway - Command to send: r
+u
+org.apache.spark
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,576 - java_gateway - Answer received: !yp
+MyApp: DEBUG - 2021-06-15 12:31:30,576 - java_gateway - Command to send: r
+u
+org.apache.spark.util
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,577 - java_gateway - Answer received: !yp
+MyApp: DEBUG - 2021-06-15 12:31:30,577 - java_gateway - Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,580 - java_gateway - Answer received: !ycorg.apache.spark.util.Utils
+MyApp: DEBUG - 2021-06-15 12:31:30,580 - java_gateway - Command to send: r
+m
+org.apache.spark.util.Utils
+getLocalDir
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,585 - java_gateway - Answer received: !ym
+MyApp: DEBUG - 2021-06-15 12:31:30,586 - java_gateway - Command to send: c
+o18
+sc
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,586 - java_gateway - Answer received: !yro23
+MyApp: DEBUG - 2021-06-15 12:31:30,586 - java_gateway - Command to send: c
+o23
+conf
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,587 - java_gateway - Answer received: !yro24
+MyApp: DEBUG - 2021-06-15 12:31:30,587 - java_gateway - Command to send: c
+z:org.apache.spark.util.Utils
+getLocalDir
+ro24
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,587 - java_gateway - Answer received: !ys/private/var/folders/pq/q7jrs6pj20zf2bdr__jyzd080000gq/T/spark-40d6e6f6-f2dc-49c0-a584-7ef388870180
+MyApp: DEBUG - 2021-06-15 12:31:30,588 - java_gateway - Command to send: r
+u
+org
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,591 - java_gateway - Answer received: !yp
+MyApp: DEBUG - 2021-06-15 12:31:30,591 - java_gateway - Command to send: r
+u
+org.apache
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,592 - java_gateway - Answer received: !yp
+MyApp: DEBUG - 2021-06-15 12:31:30,592 - java_gateway - Command to send: r
+u
+org.apache.spark
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,593 - java_gateway - Answer received: !yp
+MyApp: DEBUG - 2021-06-15 12:31:30,593 - java_gateway - Command to send: r
+u
+org.apache.spark.util
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,594 - java_gateway - Answer received: !yp
+MyApp: DEBUG - 2021-06-15 12:31:30,594 - java_gateway - Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,595 - java_gateway - Answer received: !ycorg.apache.spark.util.Utils
+MyApp: DEBUG - 2021-06-15 12:31:30,595 - java_gateway - Command to send: r
+m
+org.apache.spark.util.Utils
+createTempDir
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,596 - java_gateway - Answer received: !ym
+MyApp: DEBUG - 2021-06-15 12:31:30,597 - java_gateway - Command to send: c
+z:org.apache.spark.util.Utils
+createTempDir
+s/private/var/folders/pq/q7jrs6pj20zf2bdr__jyzd080000gq/T/spark-40d6e6f6-f2dc-49c0-a584-7ef388870180
+spyspark
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,600 - java_gateway - Answer received: !yro25
+MyApp: DEBUG - 2021-06-15 12:31:30,600 - java_gateway - Command to send: c
+o25
+getAbsolutePath
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,602 - java_gateway - Answer received: !ys/private/var/folders/pq/q7jrs6pj20zf2bdr__jyzd080000gq/T/spark-40d6e6f6-f2dc-49c0-a584-7ef388870180/pyspark-b2b95d3c-990e-4b20-95d7-6e4dfc831f18
+MyApp: DEBUG - 2021-06-15 12:31:30,602 - java_gateway - Command to send: m
+d
+o0
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,603 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:30,603 - java_gateway - Command to send: m
+d
+o8
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,603 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:30,604 - java_gateway - Command to send: m
+d
+o9
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,604 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:30,605 - java_gateway - Command to send: m
+d
+o10
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,606 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:30,606 - java_gateway - Command to send: m
+d
+o11
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,606 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:30,607 - java_gateway - Command to send: m
+d
+o12
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,607 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:30,607 - java_gateway - Command to send: m
+d
+o13
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,607 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:30,608 - java_gateway - Command to send: m
+d
+o14
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,608 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:30,608 - java_gateway - Command to send: m
+d
+o15
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,609 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:30,609 - java_gateway - Command to send: m
+d
+o16
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,610 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:30,610 - java_gateway - Command to send: m
+d
+o17
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,610 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:30,610 - java_gateway - Command to send: m
+d
+o19
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,611 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:30,611 - java_gateway - Command to send: m
+d
+o22
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,611 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:30,611 - java_gateway - Command to send: m
+d
+o23
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,612 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:30,612 - java_gateway - Command to send: m
+d
+o24
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,612 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:30,613 - java_gateway - Command to send: m
+d
+o25
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,613 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:30,613 - java_gateway - Command to send: c
+o20
+get
+sspark.python.profile
+sfalse
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,614 - java_gateway - Answer received: !ysfalse
+MyApp: DEBUG - 2021-06-15 12:31:30,614 - java_gateway - Command to send: r
+u
+SparkSession
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,670 - java_gateway - Answer received: !ycorg.apache.spark.sql.SparkSession
+MyApp: DEBUG - 2021-06-15 12:31:30,671 - java_gateway - Command to send: r
+m
+org.apache.spark.sql.SparkSession
+getDefaultSession
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,731 - java_gateway - Answer received: !ym
+MyApp: DEBUG - 2021-06-15 12:31:30,731 - java_gateway - Command to send: c
+z:org.apache.spark.sql.SparkSession
+getDefaultSession
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,734 - java_gateway - Answer received: !yro26
+MyApp: DEBUG - 2021-06-15 12:31:30,734 - java_gateway - Command to send: c
+o26
+isDefined
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,735 - java_gateway - Answer received: !ybfalse
+MyApp: DEBUG - 2021-06-15 12:31:30,735 - java_gateway - Command to send: r
+u
+SparkSession
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,737 - java_gateway - Answer received: !ycorg.apache.spark.sql.SparkSession
+MyApp: DEBUG - 2021-06-15 12:31:30,737 - java_gateway - Command to send: c
+o18
+sc
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,738 - java_gateway - Answer received: !yro27
+MyApp: DEBUG - 2021-06-15 12:31:30,738 - java_gateway - Command to send: i
+org.apache.spark.sql.SparkSession
+ro27
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,864 - java_gateway - Answer received: !yro28
+MyApp: DEBUG - 2021-06-15 12:31:30,864 - java_gateway - Command to send: c
+o28
+sqlContext
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,865 - java_gateway - Answer received: !yro29
+MyApp: DEBUG - 2021-06-15 12:31:30,865 - java_gateway - Command to send: r
+u
+SparkSession
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,870 - java_gateway - Answer received: !ycorg.apache.spark.sql.SparkSession
+MyApp: DEBUG - 2021-06-15 12:31:30,870 - java_gateway - Command to send: r
+m
+org.apache.spark.sql.SparkSession
+setDefaultSession
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,871 - java_gateway - Answer received: !ym
+MyApp: DEBUG - 2021-06-15 12:31:30,871 - java_gateway - Command to send: c
+z:org.apache.spark.sql.SparkSession
+setDefaultSession
+ro28
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,872 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:30,872 - java_gateway - Command to send: r
+u
+SparkSession
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,876 - java_gateway - Answer received: !ycorg.apache.spark.sql.SparkSession
+MyApp: DEBUG - 2021-06-15 12:31:30,876 - java_gateway - Command to send: r
+m
+org.apache.spark.sql.SparkSession
+setActiveSession
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,877 - java_gateway - Answer received: !ym
+MyApp: DEBUG - 2021-06-15 12:31:30,877 - java_gateway - Command to send: c
+z:org.apache.spark.sql.SparkSession
+setActiveSession
+ro28
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:30,878 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:30,878 - java_gateway - Command to send: c
+o28
+sessionState
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:32,433 - java_gateway - Answer received: !yro30
+MyApp: DEBUG - 2021-06-15 12:31:32,433 - java_gateway - Command to send: c
+o30
+conf
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:32,434 - java_gateway - Answer received: !yro31
+MyApp: DEBUG - 2021-06-15 12:31:32,435 - java_gateway - Command to send: c
+o31
+setConfString
+sspark.app.name
+sPython Spark SQL basic example
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:32,438 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:32,438 - java_gateway - Command to send: c
+o28
+sessionState
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:32,438 - java_gateway - Answer received: !yro32
+MyApp: DEBUG - 2021-06-15 12:31:32,439 - java_gateway - Command to send: c
+o32
+conf
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:32,439 - java_gateway - Answer received: !yro33
+MyApp: DEBUG - 2021-06-15 12:31:32,439 - java_gateway - Command to send: c
+o33
+setConfString
+sspark.executor.memory
+s8g
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:32,440 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:32,440 - java_gateway - Command to send: c
+o28
+sessionState
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:32,440 - java_gateway - Answer received: !yro34
+MyApp: DEBUG - 2021-06-15 12:31:32,441 - java_gateway - Command to send: c
+o34
+conf
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:32,441 - java_gateway - Answer received: !yro35
+MyApp: DEBUG - 2021-06-15 12:31:32,441 - java_gateway - Command to send: c
+o35
+setConfString
+sspark.cores.max
+s4
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:32,442 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:32,442 - java_gateway - Command to send: c
+o28
+sessionState
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:32,442 - java_gateway - Answer received: !yro36
+MyApp: DEBUG - 2021-06-15 12:31:32,443 - java_gateway - Command to send: c
+o36
+conf
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:32,443 - java_gateway - Answer received: !yro37
+MyApp: DEBUG - 2021-06-15 12:31:32,443 - java_gateway - Command to send: c
+o37
+setConfString
+sspark.driver.memory
+s8g
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:32,444 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:32,477 - java_gateway - Command to send: m
+d
+o26
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:32,494 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:32,494 - java_gateway - Command to send: m
+d
+o27
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:32,495 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:32,495 - java_gateway - Command to send: m
+d
+o30
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:32,495 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:32,496 - java_gateway - Command to send: m
+d
+o31
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:32,496 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:32,496 - java_gateway - Command to send: m
+d
+o32
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:32,496 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:32,497 - java_gateway - Command to send: m
+d
+o33
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:32,497 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:32,497 - java_gateway - Command to send: m
+d
+o34
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:32,497 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:32,498 - java_gateway - Command to send: m
+d
+o35
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:32,498 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:32,498 - java_gateway - Command to send: m
+d
+o36
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:32,498 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:31:32,499 - java_gateway - Command to send: m
+d
+o37
+e
+
+MyApp: DEBUG - 2021-06-15 12:31:32,499 - java_gateway - Answer received: !yv
+MyApp: WARNING - 2021-06-15 12:33:17,607 - process_metadata - Starting to process metadata
+MyApp: DEBUG - 2021-06-15 12:33:22,322 - java_gateway - Command to send: A
+8494bf7158ea4f5960d883db64340c2d4f3dd915fb5ae30b7e0b46e4d042a64d
+
+MyApp: DEBUG - 2021-06-15 12:33:22,339 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:22,339 - java_gateway - Command to send: j
+i
+rj
+org.apache.spark.SparkConf
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,341 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:22,341 - java_gateway - Command to send: j
+i
+rj
+org.apache.spark.api.java.*
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,341 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:22,341 - java_gateway - Command to send: j
+i
+rj
+org.apache.spark.api.python.*
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,342 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:22,342 - java_gateway - Command to send: j
+i
+rj
+org.apache.spark.ml.python.*
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,342 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:22,342 - java_gateway - Command to send: j
+i
+rj
+org.apache.spark.mllib.api.python.*
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,342 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:22,342 - java_gateway - Command to send: j
+i
+rj
+org.apache.spark.resource.*
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,343 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:22,343 - java_gateway - Command to send: j
+i
+rj
+org.apache.spark.sql.*
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,343 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:22,343 - java_gateway - Command to send: j
+i
+rj
+org.apache.spark.sql.api.python.*
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,344 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:22,344 - java_gateway - Command to send: j
+i
+rj
+org.apache.spark.sql.hive.*
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,344 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:22,344 - java_gateway - Command to send: j
+i
+rj
+scala.Tuple2
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,344 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:22,344 - java_gateway - Command to send: r
+u
+SparkConf
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,346 - java_gateway - Answer received: !ycorg.apache.spark.SparkConf
+MyApp: DEBUG - 2021-06-15 12:33:22,346 - java_gateway - Command to send: i
+org.apache.spark.SparkConf
+bTrue
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,354 - java_gateway - Answer received: !yro0
+MyApp: DEBUG - 2021-06-15 12:33:22,355 - java_gateway - Command to send: c
+o0
+set
+sspark.app.name
+sPython Spark SQL basic example
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,360 - java_gateway - Answer received: !yro1
+MyApp: DEBUG - 2021-06-15 12:33:22,360 - java_gateway - Command to send: m
+d
+o1
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,361 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:22,361 - java_gateway - Command to send: c
+o0
+set
+sspark.executor.memory
+s8g
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,361 - java_gateway - Answer received: !yro2
+MyApp: DEBUG - 2021-06-15 12:33:22,362 - java_gateway - Command to send: m
+d
+o2
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,362 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:22,362 - java_gateway - Command to send: c
+o0
+set
+sspark.cores.max
+s4
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,363 - java_gateway - Answer received: !yro3
+MyApp: DEBUG - 2021-06-15 12:33:22,363 - java_gateway - Command to send: m
+d
+o3
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,363 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:22,364 - java_gateway - Command to send: c
+o0
+set
+sspark.driver.memory
+s8g
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,364 - java_gateway - Answer received: !yro4
+MyApp: DEBUG - 2021-06-15 12:33:22,364 - java_gateway - Command to send: m
+d
+o4
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,364 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:22,365 - java_gateway - Command to send: c
+o0
+contains
+sspark.serializer.objectStreamReset
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,365 - java_gateway - Answer received: !ybfalse
+MyApp: DEBUG - 2021-06-15 12:33:22,366 - java_gateway - Command to send: c
+o0
+set
+sspark.serializer.objectStreamReset
+s100
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,366 - java_gateway - Answer received: !yro5
+MyApp: DEBUG - 2021-06-15 12:33:22,366 - java_gateway - Command to send: m
+d
+o5
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,367 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:22,367 - java_gateway - Command to send: c
+o0
+contains
+sspark.rdd.compress
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,367 - java_gateway - Answer received: !ybfalse
+MyApp: DEBUG - 2021-06-15 12:33:22,367 - java_gateway - Command to send: c
+o0
+set
+sspark.rdd.compress
+sTrue
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,368 - java_gateway - Answer received: !yro6
+MyApp: DEBUG - 2021-06-15 12:33:22,368 - java_gateway - Command to send: m
+d
+o6
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,368 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:22,369 - java_gateway - Command to send: c
+o0
+contains
+sspark.master
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,369 - java_gateway - Answer received: !ybtrue
+MyApp: DEBUG - 2021-06-15 12:33:22,369 - java_gateway - Command to send: c
+o0
+contains
+sspark.app.name
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,370 - java_gateway - Answer received: !ybtrue
+MyApp: DEBUG - 2021-06-15 12:33:22,370 - java_gateway - Command to send: c
+o0
+contains
+sspark.master
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,370 - java_gateway - Answer received: !ybtrue
+MyApp: DEBUG - 2021-06-15 12:33:22,370 - java_gateway - Command to send: c
+o0
+get
+sspark.master
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,372 - java_gateway - Answer received: !yslocal[*]
+MyApp: DEBUG - 2021-06-15 12:33:22,372 - java_gateway - Command to send: c
+o0
+contains
+sspark.app.name
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,372 - java_gateway - Answer received: !ybtrue
+MyApp: DEBUG - 2021-06-15 12:33:22,373 - java_gateway - Command to send: c
+o0
+get
+sspark.app.name
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,373 - java_gateway - Answer received: !ysPython Spark SQL basic example
+MyApp: DEBUG - 2021-06-15 12:33:22,373 - java_gateway - Command to send: c
+o0
+contains
+sspark.home
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,374 - java_gateway - Answer received: !ybfalse
+MyApp: DEBUG - 2021-06-15 12:33:22,374 - java_gateway - Command to send: c
+o0
+getAll
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,375 - java_gateway - Answer received: !yto7
+MyApp: DEBUG - 2021-06-15 12:33:22,375 - java_gateway - Command to send: a
+e
+o7
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,375 - java_gateway - Answer received: !yi10
+MyApp: DEBUG - 2021-06-15 12:33:22,376 - java_gateway - Command to send: a
+g
+o7
+i0
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,376 - java_gateway - Answer received: !yro8
+MyApp: DEBUG - 2021-06-15 12:33:22,376 - java_gateway - Command to send: c
+o8
+_1
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,378 - java_gateway - Answer received: !ysspark.rdd.compress
+MyApp: DEBUG - 2021-06-15 12:33:22,378 - java_gateway - Command to send: c
+o8
+_2
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,379 - java_gateway - Answer received: !ysTrue
+MyApp: DEBUG - 2021-06-15 12:33:22,379 - java_gateway - Command to send: a
+e
+o7
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,379 - java_gateway - Answer received: !yi10
+MyApp: DEBUG - 2021-06-15 12:33:22,380 - java_gateway - Command to send: a
+g
+o7
+i1
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,380 - java_gateway - Answer received: !yro9
+MyApp: DEBUG - 2021-06-15 12:33:22,380 - java_gateway - Command to send: c
+o9
+_1
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,380 - java_gateway - Answer received: !ysspark.driver.memory
+MyApp: DEBUG - 2021-06-15 12:33:22,381 - java_gateway - Command to send: c
+o9
+_2
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,381 - java_gateway - Answer received: !ys8g
+MyApp: DEBUG - 2021-06-15 12:33:22,381 - java_gateway - Command to send: a
+e
+o7
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,381 - java_gateway - Answer received: !yi10
+MyApp: DEBUG - 2021-06-15 12:33:22,381 - java_gateway - Command to send: a
+g
+o7
+i2
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,382 - java_gateway - Answer received: !yro10
+MyApp: DEBUG - 2021-06-15 12:33:22,382 - java_gateway - Command to send: c
+o10
+_1
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,382 - java_gateway - Answer received: !ysspark.serializer.objectStreamReset
+MyApp: DEBUG - 2021-06-15 12:33:22,382 - java_gateway - Command to send: c
+o10
+_2
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,382 - java_gateway - Answer received: !ys100
+MyApp: DEBUG - 2021-06-15 12:33:22,383 - java_gateway - Command to send: a
+e
+o7
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,383 - java_gateway - Answer received: !yi10
+MyApp: DEBUG - 2021-06-15 12:33:22,383 - java_gateway - Command to send: a
+g
+o7
+i3
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,383 - java_gateway - Answer received: !yro11
+MyApp: DEBUG - 2021-06-15 12:33:22,383 - java_gateway - Command to send: c
+o11
+_1
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,384 - java_gateway - Answer received: !ysspark.master
+MyApp: DEBUG - 2021-06-15 12:33:22,384 - java_gateway - Command to send: c
+o11
+_2
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,384 - java_gateway - Answer received: !yslocal[*]
+MyApp: DEBUG - 2021-06-15 12:33:22,384 - java_gateway - Command to send: a
+e
+o7
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,384 - java_gateway - Answer received: !yi10
+MyApp: DEBUG - 2021-06-15 12:33:22,385 - java_gateway - Command to send: a
+g
+o7
+i4
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,385 - java_gateway - Answer received: !yro12
+MyApp: DEBUG - 2021-06-15 12:33:22,385 - java_gateway - Command to send: c
+o12
+_1
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,385 - java_gateway - Answer received: !ysspark.executor.memory
+MyApp: DEBUG - 2021-06-15 12:33:22,385 - java_gateway - Command to send: c
+o12
+_2
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,386 - java_gateway - Answer received: !ys8g
+MyApp: DEBUG - 2021-06-15 12:33:22,386 - java_gateway - Command to send: a
+e
+o7
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,386 - java_gateway - Answer received: !yi10
+MyApp: DEBUG - 2021-06-15 12:33:22,386 - java_gateway - Command to send: a
+g
+o7
+i5
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,386 - java_gateway - Answer received: !yro13
+MyApp: DEBUG - 2021-06-15 12:33:22,386 - java_gateway - Command to send: c
+o13
+_1
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,387 - java_gateway - Answer received: !ysspark.submit.pyFiles
+MyApp: DEBUG - 2021-06-15 12:33:22,387 - java_gateway - Command to send: c
+o13
+_2
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,387 - java_gateway - Answer received: !ys
+MyApp: DEBUG - 2021-06-15 12:33:22,387 - java_gateway - Command to send: a
+e
+o7
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,387 - java_gateway - Answer received: !yi10
+MyApp: DEBUG - 2021-06-15 12:33:22,388 - java_gateway - Command to send: a
+g
+o7
+i6
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,388 - java_gateway - Answer received: !yro14
+MyApp: DEBUG - 2021-06-15 12:33:22,388 - java_gateway - Command to send: c
+o14
+_1
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,388 - java_gateway - Answer received: !ysspark.app.name
+MyApp: DEBUG - 2021-06-15 12:33:22,388 - java_gateway - Command to send: c
+o14
+_2
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,389 - java_gateway - Answer received: !ysPython Spark SQL basic example
+MyApp: DEBUG - 2021-06-15 12:33:22,389 - java_gateway - Command to send: a
+e
+o7
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,389 - java_gateway - Answer received: !yi10
+MyApp: DEBUG - 2021-06-15 12:33:22,389 - java_gateway - Command to send: a
+g
+o7
+i7
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,389 - java_gateway - Answer received: !yro15
+MyApp: DEBUG - 2021-06-15 12:33:22,390 - java_gateway - Command to send: c
+o15
+_1
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,390 - java_gateway - Answer received: !ysspark.submit.deployMode
+MyApp: DEBUG - 2021-06-15 12:33:22,390 - java_gateway - Command to send: c
+o15
+_2
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,390 - java_gateway - Answer received: !ysclient
+MyApp: DEBUG - 2021-06-15 12:33:22,390 - java_gateway - Command to send: a
+e
+o7
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,391 - java_gateway - Answer received: !yi10
+MyApp: DEBUG - 2021-06-15 12:33:22,391 - java_gateway - Command to send: a
+g
+o7
+i8
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,391 - java_gateway - Answer received: !yro16
+MyApp: DEBUG - 2021-06-15 12:33:22,391 - java_gateway - Command to send: c
+o16
+_1
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,391 - java_gateway - Answer received: !ysspark.ui.showConsoleProgress
+MyApp: DEBUG - 2021-06-15 12:33:22,392 - java_gateway - Command to send: c
+o16
+_2
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,392 - java_gateway - Answer received: !ystrue
+MyApp: DEBUG - 2021-06-15 12:33:22,392 - java_gateway - Command to send: a
+e
+o7
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,392 - java_gateway - Answer received: !yi10
+MyApp: DEBUG - 2021-06-15 12:33:22,392 - java_gateway - Command to send: a
+g
+o7
+i9
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,393 - java_gateway - Answer received: !yro17
+MyApp: DEBUG - 2021-06-15 12:33:22,393 - java_gateway - Command to send: c
+o17
+_1
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,393 - java_gateway - Answer received: !ysspark.cores.max
+MyApp: DEBUG - 2021-06-15 12:33:22,393 - java_gateway - Command to send: c
+o17
+_2
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,394 - java_gateway - Answer received: !ys4
+MyApp: DEBUG - 2021-06-15 12:33:22,394 - java_gateway - Command to send: a
+e
+o7
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,394 - java_gateway - Answer received: !yi10
+MyApp: DEBUG - 2021-06-15 12:33:22,394 - java_gateway - Command to send: m
+d
+o7
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,394 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:22,394 - java_gateway - Command to send: r
+u
+JavaSparkContext
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:22,447 - java_gateway - Answer received: !ycorg.apache.spark.api.java.JavaSparkContext
+MyApp: DEBUG - 2021-06-15 12:33:22,447 - java_gateway - Command to send: i
+org.apache.spark.api.java.JavaSparkContext
+ro0
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,331 - java_gateway - Answer received: !yro18
+MyApp: DEBUG - 2021-06-15 12:33:24,331 - java_gateway - Command to send: c
+o18
+sc
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,334 - java_gateway - Answer received: !yro19
+MyApp: DEBUG - 2021-06-15 12:33:24,334 - java_gateway - Command to send: c
+o19
+conf
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,361 - java_gateway - Answer received: !yro20
+MyApp: DEBUG - 2021-06-15 12:33:24,363 - java_gateway - Command to send: r
+u
+PythonAccumulatorV2
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,366 - java_gateway - Answer received: !ycorg.apache.spark.api.python.PythonAccumulatorV2
+MyApp: DEBUG - 2021-06-15 12:33:24,366 - java_gateway - Command to send: i
+org.apache.spark.api.python.PythonAccumulatorV2
+s127.0.0.1
+i53854
+s8494bf7158ea4f5960d883db64340c2d4f3dd915fb5ae30b7e0b46e4d042a64d
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,367 - java_gateway - Answer received: !yro21
+MyApp: DEBUG - 2021-06-15 12:33:24,367 - java_gateway - Command to send: c
+o18
+sc
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,368 - java_gateway - Answer received: !yro22
+MyApp: DEBUG - 2021-06-15 12:33:24,368 - java_gateway - Command to send: c
+o22
+register
+ro21
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,373 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:24,373 - java_gateway - Command to send: r
+u
+PythonUtils
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,377 - java_gateway - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+MyApp: DEBUG - 2021-06-15 12:33:24,377 - java_gateway - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+isEncryptionEnabled
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,378 - java_gateway - Answer received: !ym
+MyApp: DEBUG - 2021-06-15 12:33:24,378 - java_gateway - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+isEncryptionEnabled
+ro18
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,380 - java_gateway - Answer received: !ybfalse
+MyApp: DEBUG - 2021-06-15 12:33:24,380 - java_gateway - Command to send: r
+u
+PythonUtils
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,381 - java_gateway - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+MyApp: DEBUG - 2021-06-15 12:33:24,382 - java_gateway - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+getPythonAuthSocketTimeout
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,382 - java_gateway - Answer received: !ym
+MyApp: DEBUG - 2021-06-15 12:33:24,382 - java_gateway - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+getPythonAuthSocketTimeout
+ro18
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,383 - java_gateway - Answer received: !yL15
+MyApp: DEBUG - 2021-06-15 12:33:24,383 - java_gateway - Command to send: r
+u
+PythonUtils
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,384 - java_gateway - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+MyApp: DEBUG - 2021-06-15 12:33:24,384 - java_gateway - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+getSparkBufferSize
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,384 - java_gateway - Answer received: !ym
+MyApp: DEBUG - 2021-06-15 12:33:24,384 - java_gateway - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+getSparkBufferSize
+ro18
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,385 - java_gateway - Answer received: !yi65536
+MyApp: DEBUG - 2021-06-15 12:33:24,385 - java_gateway - Command to send: r
+u
+org
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,387 - java_gateway - Answer received: !yp
+MyApp: DEBUG - 2021-06-15 12:33:24,387 - java_gateway - Command to send: r
+u
+org.apache
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,388 - java_gateway - Answer received: !yp
+MyApp: DEBUG - 2021-06-15 12:33:24,388 - java_gateway - Command to send: r
+u
+org.apache.spark
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,389 - java_gateway - Answer received: !yp
+MyApp: DEBUG - 2021-06-15 12:33:24,389 - java_gateway - Command to send: r
+u
+org.apache.spark.SparkFiles
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,390 - java_gateway - Answer received: !ycorg.apache.spark.SparkFiles
+MyApp: DEBUG - 2021-06-15 12:33:24,390 - java_gateway - Command to send: r
+m
+org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,390 - java_gateway - Answer received: !ym
+MyApp: DEBUG - 2021-06-15 12:33:24,390 - java_gateway - Command to send: c
+z:org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,391 - java_gateway - Answer received: !ys/private/var/folders/pq/q7jrs6pj20zf2bdr__jyzd080000gq/T/spark-1a0bdfc4-0809-421a-ae4a-c6317f16fec1/userFiles-9d5906bc-dd2d-47d5-a779-db02a30e1ef1
+MyApp: DEBUG - 2021-06-15 12:33:24,392 - java_gateway - Command to send: c
+o20
+get
+sspark.submit.pyFiles
+s
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,392 - java_gateway - Answer received: !ys
+MyApp: DEBUG - 2021-06-15 12:33:24,392 - java_gateway - Command to send: r
+u
+org
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,394 - java_gateway - Answer received: !yp
+MyApp: DEBUG - 2021-06-15 12:33:24,395 - java_gateway - Command to send: r
+u
+org.apache
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,395 - java_gateway - Answer received: !yp
+MyApp: DEBUG - 2021-06-15 12:33:24,395 - java_gateway - Command to send: r
+u
+org.apache.spark
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,396 - java_gateway - Answer received: !yp
+MyApp: DEBUG - 2021-06-15 12:33:24,396 - java_gateway - Command to send: r
+u
+org.apache.spark.util
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,396 - java_gateway - Answer received: !yp
+MyApp: DEBUG - 2021-06-15 12:33:24,397 - java_gateway - Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,400 - java_gateway - Answer received: !ycorg.apache.spark.util.Utils
+MyApp: DEBUG - 2021-06-15 12:33:24,400 - java_gateway - Command to send: r
+m
+org.apache.spark.util.Utils
+getLocalDir
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,405 - java_gateway - Answer received: !ym
+MyApp: DEBUG - 2021-06-15 12:33:24,405 - java_gateway - Command to send: c
+o18
+sc
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,406 - java_gateway - Answer received: !yro23
+MyApp: DEBUG - 2021-06-15 12:33:24,406 - java_gateway - Command to send: c
+o23
+conf
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,406 - java_gateway - Answer received: !yro24
+MyApp: DEBUG - 2021-06-15 12:33:24,406 - java_gateway - Command to send: c
+z:org.apache.spark.util.Utils
+getLocalDir
+ro24
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,407 - java_gateway - Answer received: !ys/private/var/folders/pq/q7jrs6pj20zf2bdr__jyzd080000gq/T/spark-1a0bdfc4-0809-421a-ae4a-c6317f16fec1
+MyApp: DEBUG - 2021-06-15 12:33:24,407 - java_gateway - Command to send: r
+u
+org
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,412 - java_gateway - Answer received: !yp
+MyApp: DEBUG - 2021-06-15 12:33:24,416 - java_gateway - Command to send: r
+u
+org.apache
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,417 - java_gateway - Answer received: !yp
+MyApp: DEBUG - 2021-06-15 12:33:24,417 - java_gateway - Command to send: r
+u
+org.apache.spark
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,418 - java_gateway - Answer received: !yp
+MyApp: DEBUG - 2021-06-15 12:33:24,418 - java_gateway - Command to send: r
+u
+org.apache.spark.util
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,419 - java_gateway - Answer received: !yp
+MyApp: DEBUG - 2021-06-15 12:33:24,419 - java_gateway - Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,419 - java_gateway - Answer received: !ycorg.apache.spark.util.Utils
+MyApp: DEBUG - 2021-06-15 12:33:24,419 - java_gateway - Command to send: r
+m
+org.apache.spark.util.Utils
+createTempDir
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,421 - java_gateway - Answer received: !ym
+MyApp: DEBUG - 2021-06-15 12:33:24,424 - java_gateway - Command to send: c
+z:org.apache.spark.util.Utils
+createTempDir
+s/private/var/folders/pq/q7jrs6pj20zf2bdr__jyzd080000gq/T/spark-1a0bdfc4-0809-421a-ae4a-c6317f16fec1
+spyspark
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,449 - java_gateway - Answer received: !yro25
+MyApp: DEBUG - 2021-06-15 12:33:24,450 - java_gateway - Command to send: c
+o25
+getAbsolutePath
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,451 - java_gateway - Answer received: !ys/private/var/folders/pq/q7jrs6pj20zf2bdr__jyzd080000gq/T/spark-1a0bdfc4-0809-421a-ae4a-c6317f16fec1/pyspark-c8396498-2477-4dca-9c6c-4f411fe7a841
+MyApp: DEBUG - 2021-06-15 12:33:24,451 - java_gateway - Command to send: m
+d
+o0
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,451 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:24,451 - java_gateway - Command to send: m
+d
+o8
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,452 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:24,452 - java_gateway - Command to send: m
+d
+o9
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,452 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:24,452 - java_gateway - Command to send: m
+d
+o10
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,453 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:24,453 - java_gateway - Command to send: m
+d
+o11
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,453 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:24,453 - java_gateway - Command to send: m
+d
+o12
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,453 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:24,453 - java_gateway - Command to send: m
+d
+o13
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,454 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:24,454 - java_gateway - Command to send: m
+d
+o14
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,454 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:24,454 - java_gateway - Command to send: m
+d
+o15
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,454 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:24,455 - java_gateway - Command to send: m
+d
+o16
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,455 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:24,455 - java_gateway - Command to send: m
+d
+o17
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,456 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:24,456 - java_gateway - Command to send: m
+d
+o19
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,457 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:24,457 - java_gateway - Command to send: m
+d
+o22
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,457 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:24,457 - java_gateway - Command to send: m
+d
+o23
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,457 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:24,457 - java_gateway - Command to send: m
+d
+o24
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,458 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:24,458 - java_gateway - Command to send: m
+d
+o25
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,458 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:24,459 - java_gateway - Command to send: c
+o20
+get
+sspark.python.profile
+sfalse
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,459 - java_gateway - Answer received: !ysfalse
+MyApp: DEBUG - 2021-06-15 12:33:24,459 - java_gateway - Command to send: r
+u
+SparkSession
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,493 - java_gateway - Answer received: !ycorg.apache.spark.sql.SparkSession
+MyApp: DEBUG - 2021-06-15 12:33:24,493 - java_gateway - Command to send: r
+m
+org.apache.spark.sql.SparkSession
+getDefaultSession
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,535 - java_gateway - Answer received: !ym
+MyApp: DEBUG - 2021-06-15 12:33:24,535 - java_gateway - Command to send: c
+z:org.apache.spark.sql.SparkSession
+getDefaultSession
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,537 - java_gateway - Answer received: !yro26
+MyApp: DEBUG - 2021-06-15 12:33:24,537 - java_gateway - Command to send: c
+o26
+isDefined
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,537 - java_gateway - Answer received: !ybfalse
+MyApp: DEBUG - 2021-06-15 12:33:24,537 - java_gateway - Command to send: r
+u
+SparkSession
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,539 - java_gateway - Answer received: !ycorg.apache.spark.sql.SparkSession
+MyApp: DEBUG - 2021-06-15 12:33:24,539 - java_gateway - Command to send: c
+o18
+sc
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,539 - java_gateway - Answer received: !yro27
+MyApp: DEBUG - 2021-06-15 12:33:24,540 - java_gateway - Command to send: i
+org.apache.spark.sql.SparkSession
+ro27
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,635 - java_gateway - Answer received: !yro28
+MyApp: DEBUG - 2021-06-15 12:33:24,635 - java_gateway - Command to send: c
+o28
+sqlContext
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,635 - java_gateway - Answer received: !yro29
+MyApp: DEBUG - 2021-06-15 12:33:24,635 - java_gateway - Command to send: r
+u
+SparkSession
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,637 - java_gateway - Answer received: !ycorg.apache.spark.sql.SparkSession
+MyApp: DEBUG - 2021-06-15 12:33:24,637 - java_gateway - Command to send: r
+m
+org.apache.spark.sql.SparkSession
+setDefaultSession
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,637 - java_gateway - Answer received: !ym
+MyApp: DEBUG - 2021-06-15 12:33:24,638 - java_gateway - Command to send: c
+z:org.apache.spark.sql.SparkSession
+setDefaultSession
+ro28
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,638 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:24,638 - java_gateway - Command to send: r
+u
+SparkSession
+rj
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,640 - java_gateway - Answer received: !ycorg.apache.spark.sql.SparkSession
+MyApp: DEBUG - 2021-06-15 12:33:24,640 - java_gateway - Command to send: r
+m
+org.apache.spark.sql.SparkSession
+setActiveSession
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,640 - java_gateway - Answer received: !ym
+MyApp: DEBUG - 2021-06-15 12:33:24,640 - java_gateway - Command to send: c
+z:org.apache.spark.sql.SparkSession
+setActiveSession
+ro28
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:24,640 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:24,640 - java_gateway - Command to send: c
+o28
+sessionState
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:25,662 - java_gateway - Answer received: !yro30
+MyApp: DEBUG - 2021-06-15 12:33:25,663 - java_gateway - Command to send: c
+o30
+conf
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:25,664 - java_gateway - Answer received: !yro31
+MyApp: DEBUG - 2021-06-15 12:33:25,664 - java_gateway - Command to send: c
+o31
+setConfString
+sspark.app.name
+sPython Spark SQL basic example
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:25,666 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:25,667 - java_gateway - Command to send: c
+o28
+sessionState
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:25,667 - java_gateway - Answer received: !yro32
+MyApp: DEBUG - 2021-06-15 12:33:25,667 - java_gateway - Command to send: c
+o32
+conf
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:25,667 - java_gateway - Answer received: !yro33
+MyApp: DEBUG - 2021-06-15 12:33:25,668 - java_gateway - Command to send: c
+o33
+setConfString
+sspark.executor.memory
+s8g
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:25,668 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:25,668 - java_gateway - Command to send: c
+o28
+sessionState
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:25,669 - java_gateway - Answer received: !yro34
+MyApp: DEBUG - 2021-06-15 12:33:25,669 - java_gateway - Command to send: c
+o34
+conf
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:25,669 - java_gateway - Answer received: !yro35
+MyApp: DEBUG - 2021-06-15 12:33:25,669 - java_gateway - Command to send: c
+o35
+setConfString
+sspark.cores.max
+s4
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:25,670 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:25,670 - java_gateway - Command to send: c
+o28
+sessionState
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:25,670 - java_gateway - Answer received: !yro36
+MyApp: DEBUG - 2021-06-15 12:33:25,671 - java_gateway - Command to send: c
+o36
+conf
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:25,671 - java_gateway - Answer received: !yro37
+MyApp: DEBUG - 2021-06-15 12:33:25,671 - java_gateway - Command to send: c
+o37
+setConfString
+sspark.driver.memory
+s8g
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:25,672 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:25,687 - java_gateway - Command to send: m
+d
+o26
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:25,698 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:25,698 - java_gateway - Command to send: m
+d
+o27
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:25,699 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:25,699 - java_gateway - Command to send: m
+d
+o30
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:25,699 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:25,699 - java_gateway - Command to send: m
+d
+o31
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:25,699 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:25,700 - java_gateway - Command to send: m
+d
+o32
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:25,700 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:25,700 - java_gateway - Command to send: m
+d
+o33
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:25,700 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:25,700 - java_gateway - Command to send: m
+d
+o34
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:25,701 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:25,701 - java_gateway - Command to send: m
+d
+o35
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:25,701 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:25,701 - java_gateway - Command to send: m
+d
+o36
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:25,701 - java_gateway - Answer received: !yv
+MyApp: DEBUG - 2021-06-15 12:33:25,701 - java_gateway - Command to send: m
+d
+o37
+e
+
+MyApp: DEBUG - 2021-06-15 12:33:25,702 - java_gateway - Answer received: !yv

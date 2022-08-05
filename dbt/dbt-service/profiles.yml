@@ -1,0 +1,22 @@
+dbt_rfm:  # your profile name from dbt_project.yml
+  target: dev  # your development environment
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: vectux-01  # name of the project in BigQuery
+      dataset: dwh_staging
+      threads: 4
+      timeout_seconds: 300
+      priority: interactive
+      retries: 1
+    
+    prod: # your production environment
+      type: bigquery
+      method: oauth
+      project: vectux-01  # name of the project in BigQuery
+      # dataset: dwh  # your dataset for production
+      threads: 4
+      timeout_seconds: 300
+      priority: interactive
+      retries: 1

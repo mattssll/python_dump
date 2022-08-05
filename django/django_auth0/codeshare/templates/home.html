@@ -1,0 +1,36 @@
+{% load static %}
+<!-- CSS CUSTOM -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body> 
+    <div>
+        <button class="btn-login logoutlink">
+            <a class= "logoutlink"href='/logout'>click to logout</a>
+        </button></div>
+    <div>
+        
+    <div>
+    {% for i in posts %} 
+        <h1>{{ i.post_title}}</h1> 
+        <p>{{ i.post_description }}</p> 
+        <code> {{ i.post_description_markdown }} </code>
+        <p>{{ i.created}}</p> 
+        <p>{{ i.updated}}</p> 
+        <p>{{ i.post_org}}</p> 
+        <h6> {{i.post_author}} </h6> 
+        <p>{{ i.updated}}</p> 
+    {% endfor %} 
+    </div>
+</body> 
+</html>
+</body>
+</html>

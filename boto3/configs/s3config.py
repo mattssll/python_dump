@@ -1,0 +1,2 @@
+AWS_S3_PUBLIC_KEY = ""
+AWS_S3_SECRET_KEY = ""

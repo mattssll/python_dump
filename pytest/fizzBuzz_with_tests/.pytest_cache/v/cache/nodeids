@@ -1,0 +1,6 @@
+[
+  "fizzBuzz_test.py::TestFizzBuzz::test_buzz",
+  "fizzBuzz_test.py::TestFizzBuzz::test_fizz",
+  "fizzBuzz_test.py::TestFizzBuzz::test_fizzbuzz",
+  "fizzBuzz_test.py::TestFizzBuzz::test_number"
+]

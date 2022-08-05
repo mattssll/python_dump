@@ -1,0 +1,8 @@
+[
+  "joinConcat_test.py::test_join_use_case",
+  "joinConcat_test.py::test_join_edge_single_item",
+  "joinConcat_test.py::test_join_edge_empty_delimiter",
+  "sumList_test.py::test_total_empty",
+  "sumList_test.py::test_total_single_item",
+  "sumList_test.py::test_total_many_items"
+]

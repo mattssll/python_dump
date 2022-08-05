@@ -1,0 +1,423 @@
+2021-12-28 21:17:10.235987 (MainThread): Running with dbt=0.21.1
+2021-12-28 21:17:10.238159 (MainThread): Profile not loaded due to error: Runtime Error
+  Could not find profile named 'dbt_rfm'
+2021-12-28 21:17:10.238216 (MainThread): No profile "dbt_rfm" found, continuing with no target
+2021-12-28 21:17:10.247504 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.deps.DepsTask'>, debug=False, defer=None, log_cache_events=False, log_format='default', partial_parse=None, profile=None, profiles_dir='/Users/mattssll/.dbt', project_dir=None, record_timing_info=None, rpc_method='deps', single_threaded=False, state=None, strict=False, target=None, test_new_parser=False, use_cache=True, use_colors=None, use_experimental_parser=False, vars='{}', warn_error=False, which='deps', write_json=True)
+2021-12-28 21:17:10.247887 (MainThread): Tracking: do not track
+2021-12-28 21:17:10.256383 (MainThread): Set downloads directory='/var/folders/b9/9f3by90s3tj80x_h6s70sc380000gn/T/dbt-downloads-qa_xohzs'
+2021-12-28 21:17:10.256827 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/index.json
+2021-12-28 21:17:10.498416 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/index.json 200
+2021-12-28 21:17:10.499318 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_external_tables.json
+2021-12-28 21:17:10.818650 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_external_tables.json 200
+2021-12-28 21:17:10.831261 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_external_tables/0.7.3.json
+2021-12-28 21:17:11.129511 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_external_tables/0.7.3.json 200
+2021-12-28 21:17:11.131353 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+2021-12-28 21:17:11.343106 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+2021-12-28 21:17:11.380340 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/0.7.6.json
+2021-12-28 21:17:11.699220 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/0.7.6.json 200
+2021-12-28 21:17:11.700127 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_external_tables.json
+2021-12-28 21:17:12.087034 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_external_tables.json 200
+2021-12-28 21:17:12.098216 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+2021-12-28 21:17:12.254800 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+2021-12-28 21:17:12.291893 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_external_tables/0.7.3.json
+2021-12-28 21:17:12.590691 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_external_tables/0.7.3.json 200
+2021-12-28 21:17:12.591490 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/0.7.6.json
+2021-12-28 21:17:12.907183 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/0.7.6.json 200
+2021-12-28 21:17:12.908404 (MainThread): Installing dbt-labs/dbt_external_tables@0.7.3
+2021-12-28 21:17:13.560293 (MainThread):   Installed from version 0.7.3
+2021-12-28 21:17:13.560577 (MainThread):   Updated version available: 0.8.0
+2021-12-28 21:17:13.560879 (MainThread): Installing dbt-labs/dbt_utils@0.7.6
+2021-12-28 21:17:14.388707 (MainThread):   Installed from version 0.7.6
+2021-12-28 21:17:14.388927 (MainThread):   Updated version available: 0.8.0
+2021-12-28 21:17:14.389124 (MainThread): 
+Updates available for packages: ['dbt-labs/dbt_external_tables', 'dbt-labs/dbt_utils']                 
+Update your versions in packages.yml, then run dbt deps
+2021-12-28 21:17:14.389793 (MainThread): Flushing usage events
+2021-12-28 22:31:00.300824 (MainThread): Running with dbt=0.21.1
+2021-12-28 22:31:00.738464 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.run.RunTask'>, debug=False, defer=None, exclude=None, fail_fast=False, full_refresh=False, log_cache_events=False, log_format='default', partial_parse=None, profile=None, profiles_dir='/Users/mattssll/Documents/Tech/python/dbt/dbt-service', project_dir=None, record_timing_info=None, rpc_method='run', select=None, selector_name=None, single_threaded=False, state=None, strict=False, target=None, test_new_parser=False, threads=None, use_cache=True, use_colors=None, use_experimental_parser=False, vars='{}', version_check=True, warn_error=False, which='run', write_json=True)
+2021-12-28 22:31:00.739186 (MainThread): Tracking: tracking
+2021-12-28 22:31:00.744760 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10750a2b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1074ea940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1074eae20>]}
+2021-12-28 22:31:00.745710 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104864eb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1074eaeb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1074eaca0>]}
+2021-12-28 22:31:00.745840 (MainThread): Flushing usage events
+2021-12-28 22:31:01.292086 (MainThread): Encountered an error:
+2021-12-28 22:31:01.292933 (MainThread): Compilation Error
+  dbt found 1 package(s) specified in packages.yml, but only 0 package(s) installed in dbt_modules. Run "dbt deps" to install package dependencies.
+2021-12-28 22:31:01.295652 (MainThread): Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/dbt/0.21.1_1/libexec/lib/python3.8/site-packages/dbt/main.py", line 127, in main
+    results, succeeded = handle_and_check(args)
+  File "/opt/homebrew/Cellar/dbt/0.21.1_1/libexec/lib/python3.8/site-packages/dbt/main.py", line 205, in handle_and_check
+    task, res = run_from_args(parsed)
+  File "/opt/homebrew/Cellar/dbt/0.21.1_1/libexec/lib/python3.8/site-packages/dbt/main.py", line 258, in run_from_args
+    results = task.run()
+  File "/opt/homebrew/Cellar/dbt/0.21.1_1/libexec/lib/python3.8/site-packages/dbt/task/runnable.py", line 438, in run
+    self._runtime_initialize()
+  File "/opt/homebrew/Cellar/dbt/0.21.1_1/libexec/lib/python3.8/site-packages/dbt/task/runnable.py", line 154, in _runtime_initialize
+    super()._runtime_initialize()
+  File "/opt/homebrew/Cellar/dbt/0.21.1_1/libexec/lib/python3.8/site-packages/dbt/task/runnable.py", line 92, in _runtime_initialize
+    self.load_manifest()
+  File "/opt/homebrew/Cellar/dbt/0.21.1_1/libexec/lib/python3.8/site-packages/dbt/task/runnable.py", line 79, in load_manifest
+    self.manifest = ManifestLoader.get_full_manifest(self.config)
+  File "/opt/homebrew/Cellar/dbt/0.21.1_1/libexec/lib/python3.8/site-packages/dbt/parser/manifest.py", line 179, in get_full_manifest
+    projects = config.load_dependencies()
+  File "/opt/homebrew/Cellar/dbt/0.21.1_1/libexec/lib/python3.8/site-packages/dbt/config/runtime.py", line 336, in load_dependencies
+    raise_compiler_error(
+  File "/opt/homebrew/Cellar/dbt/0.21.1_1/libexec/lib/python3.8/site-packages/dbt/exceptions.py", line 447, in raise_compiler_error
+    raise CompilationException(msg, node)
+dbt.exceptions.CompilationException: Compilation Error
+  dbt found 1 package(s) specified in packages.yml, but only 0 package(s) installed in dbt_modules. Run "dbt deps" to install package dependencies.
+
+2021-12-28 22:31:07.689688 (MainThread): Running with dbt=0.21.1
+2021-12-28 22:31:07.691528 (MainThread): Profile not loaded due to error: Runtime Error
+  Could not find profile named 'dbt_rfm'
+2021-12-28 22:31:07.691582 (MainThread): No profile "dbt_rfm" found, continuing with no target
+2021-12-28 22:31:07.700623 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.deps.DepsTask'>, debug=False, defer=None, log_cache_events=False, log_format='default', partial_parse=None, profile=None, profiles_dir='/Users/mattssll/.dbt', project_dir=None, record_timing_info=None, rpc_method='deps', single_threaded=False, state=None, strict=False, target=None, test_new_parser=False, use_cache=True, use_colors=None, use_experimental_parser=False, vars='{}', warn_error=False, which='deps', write_json=True)
+2021-12-28 22:31:07.700880 (MainThread): Tracking: do not track
+2021-12-28 22:31:07.705957 (MainThread): Set downloads directory='/var/folders/b9/9f3by90s3tj80x_h6s70sc380000gn/T/dbt-downloads-rf43_jnz'
+2021-12-28 22:31:07.706344 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/index.json
+2021-12-28 22:31:07.931003 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/index.json 200
+2021-12-28 22:31:07.931637 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_external_tables.json
+2021-12-28 22:31:08.287857 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_external_tables.json 200
+2021-12-28 22:31:08.296777 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_external_tables/0.7.3.json
+2021-12-28 22:31:08.573756 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_external_tables/0.7.3.json 200
+2021-12-28 22:31:08.575461 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+2021-12-28 22:31:08.751795 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+2021-12-28 22:31:08.788623 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/0.7.6.json
+2021-12-28 22:31:08.954288 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/0.7.6.json 200
+2021-12-28 22:31:08.955052 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_external_tables.json
+2021-12-28 22:31:09.301115 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_external_tables.json 200
+2021-12-28 22:31:09.311981 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+2021-12-28 22:31:09.488609 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+2021-12-28 22:31:09.528361 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_external_tables/0.7.3.json
+2021-12-28 22:31:09.804528 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_external_tables/0.7.3.json 200
+2021-12-28 22:31:09.805578 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/0.7.6.json
+2021-12-28 22:31:10.089306 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/0.7.6.json 200
+2021-12-28 22:31:10.090355 (MainThread): Installing dbt-labs/dbt_external_tables@0.7.3
+2021-12-28 22:31:10.690142 (MainThread):   Installed from version 0.7.3
+2021-12-28 22:31:10.690368 (MainThread):   Updated version available: 0.8.0
+2021-12-28 22:31:10.690591 (MainThread): Installing dbt-labs/dbt_utils@0.7.6
+2021-12-28 22:31:10.993588 (MainThread):   Installed from version 0.7.6
+2021-12-28 22:31:10.993815 (MainThread):   Updated version available: 0.8.0
+2021-12-28 22:31:10.994001 (MainThread): 
+Updates available for packages: ['dbt-labs/dbt_external_tables', 'dbt-labs/dbt_utils']                 
+Update your versions in packages.yml, then run dbt deps
+2021-12-28 22:31:10.994603 (MainThread): Flushing usage events
+2021-12-28 22:31:14.863676 (MainThread): Running with dbt=0.21.1
+2021-12-28 22:31:14.865489 (MainThread): Profile not loaded due to error: Runtime Error
+  Could not find profile named 'dbt_rfm'
+2021-12-28 22:31:14.865546 (MainThread): No profile "dbt_rfm" found, continuing with no target
+2021-12-28 22:31:14.874672 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.deps.DepsTask'>, debug=False, defer=None, log_cache_events=False, log_format='default', partial_parse=None, profile=None, profiles_dir='/Users/mattssll/.dbt', project_dir=None, record_timing_info=None, rpc_method='deps', single_threaded=False, state=None, strict=False, target=None, test_new_parser=False, use_cache=True, use_colors=None, use_experimental_parser=False, vars='{}', warn_error=False, which='deps', write_json=True)
+2021-12-28 22:31:14.874949 (MainThread): Tracking: do not track
+2021-12-28 22:31:14.880849 (MainThread): Set downloads directory='/var/folders/b9/9f3by90s3tj80x_h6s70sc380000gn/T/dbt-downloads-y46jd5qb'
+2021-12-28 22:31:14.881302 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/index.json
+2021-12-28 22:31:15.075852 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/index.json 200
+2021-12-28 22:31:15.076505 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_external_tables.json
+2021-12-28 22:31:15.244438 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_external_tables.json 200
+2021-12-28 22:31:15.255165 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_external_tables/0.7.3.json
+2021-12-28 22:31:15.421727 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_external_tables/0.7.3.json 200
+2021-12-28 22:31:15.423307 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+2021-12-28 22:31:15.600017 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+2021-12-28 22:31:15.637064 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/0.7.6.json
+2021-12-28 22:31:15.821958 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/0.7.6.json 200
+2021-12-28 22:31:15.823130 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_external_tables.json
+2021-12-28 22:31:15.997670 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_external_tables.json 200
+2021-12-28 22:31:16.007210 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+2021-12-28 22:31:16.212571 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+2021-12-28 22:31:16.251263 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_external_tables/0.7.3.json
+2021-12-28 22:31:16.419923 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_external_tables/0.7.3.json 200
+2021-12-28 22:31:16.420732 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/0.7.6.json
+2021-12-28 22:31:16.600528 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/0.7.6.json 200
+2021-12-28 22:31:16.601426 (MainThread): Installing dbt-labs/dbt_external_tables@0.7.3
+2021-12-28 22:31:16.952191 (MainThread):   Installed from version 0.7.3
+2021-12-28 22:31:16.952422 (MainThread):   Updated version available: 0.8.0
+2021-12-28 22:31:16.952637 (MainThread): Installing dbt-labs/dbt_utils@0.7.6
+2021-12-28 22:31:17.284845 (MainThread):   Installed from version 0.7.6
+2021-12-28 22:31:17.284991 (MainThread):   Updated version available: 0.8.0
+2021-12-28 22:31:17.285118 (MainThread): 
+Updates available for packages: ['dbt-labs/dbt_external_tables', 'dbt-labs/dbt_utils']                 
+Update your versions in packages.yml, then run dbt deps
+2021-12-28 22:31:17.285504 (MainThread): Flushing usage events
+2021-12-28 22:31:31.800422 (MainThread): Running with dbt=0.21.1
+2021-12-28 22:31:32.052365 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.run.RunTask'>, debug=False, defer=None, exclude=None, fail_fast=False, full_refresh=False, log_cache_events=False, log_format='default', partial_parse=None, profile=None, profiles_dir='/Users/mattssll/Documents/Tech/python/dbt/dbt-service', project_dir=None, record_timing_info=None, rpc_method='run', select=None, selector_name=None, single_threaded=False, state=None, strict=False, target=None, test_new_parser=False, threads=None, use_cache=True, use_colors=None, use_experimental_parser=False, vars='{}', version_check=True, warn_error=False, which='run', write_json=True)
+2021-12-28 22:31:32.053043 (MainThread): Tracking: tracking
+2021-12-28 22:31:32.056913 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10744e250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1074769d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107476d60>]}
+2021-12-28 22:31:32.071027 (MainThread): Partial parsing not enabled
+2021-12-28 22:31:32.089728 (MainThread): Parsing macros/cents_to_dollars.sql
+2021-12-28 22:31:32.090193 (MainThread): Parsing macros/get_custom_schema.sql
+2021-12-28 22:31:32.090692 (MainThread): Parsing macros/etc.sql
+2021-12-28 22:31:32.091692 (MainThread): Parsing macros/catalog.sql
+2021-12-28 22:31:32.095330 (MainThread): Parsing macros/adapters.sql
+2021-12-28 22:31:32.107309 (MainThread): Parsing macros/materializations/seed.sql
+2021-12-28 22:31:32.108580 (MainThread): Parsing macros/materializations/view.sql
+2021-12-28 22:31:32.109885 (MainThread): Parsing macros/materializations/table.sql
+2021-12-28 22:31:32.114805 (MainThread): Parsing macros/materializations/copy.sql
+2021-12-28 22:31:32.116136 (MainThread): Parsing macros/materializations/incremental.sql
+2021-12-28 22:31:32.123596 (MainThread): Parsing macros/materializations/snapshot.sql
+2021-12-28 22:31:32.124403 (MainThread): Parsing macros/core.sql
+2021-12-28 22:31:32.126270 (MainThread): Parsing macros/materializations/test.sql
+2021-12-28 22:31:32.129767 (MainThread): Parsing macros/materializations/helpers.sql
+2021-12-28 22:31:32.135031 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-12-28 22:31:32.135871 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2021-12-28 22:31:32.144738 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2021-12-28 22:31:32.163633 (MainThread): Parsing macros/materializations/seed/seed.sql
+2021-12-28 22:31:32.176011 (MainThread): Parsing macros/materializations/incremental/helpers.sql
+2021-12-28 22:31:32.176885 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2021-12-28 22:31:32.182349 (MainThread): Parsing macros/materializations/incremental/on_schema_change.sql
+2021-12-28 22:31:32.193437 (MainThread): Parsing macros/materializations/common/merge.sql
+2021-12-28 22:31:32.200979 (MainThread): Parsing macros/materializations/table/table.sql
+2021-12-28 22:31:32.205267 (MainThread): Parsing macros/materializations/view/view.sql
+2021-12-28 22:31:32.209247 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-12-28 22:31:32.211184 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2021-12-28 22:31:32.211908 (MainThread): Parsing macros/etc/query.sql
+2021-12-28 22:31:32.212369 (MainThread): Parsing macros/etc/is_incremental.sql
+2021-12-28 22:31:32.213127 (MainThread): Parsing macros/etc/datetime.sql
+2021-12-28 22:31:32.217607 (MainThread): Parsing macros/etc/where_subquery.sql
+2021-12-28 22:31:32.218501 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2021-12-28 22:31:32.219696 (MainThread): Parsing macros/etc/get_custom_database.sql
+2021-12-28 22:31:32.220469 (MainThread): Parsing macros/adapters/common.sql
+2021-12-28 22:31:32.250341 (MainThread): Parsing macros/schema_tests/relationships.sql
+2021-12-28 22:31:32.251163 (MainThread): Parsing macros/schema_tests/not_null.sql
+2021-12-28 22:31:32.251734 (MainThread): Parsing macros/schema_tests/unique.sql
+2021-12-28 22:31:32.252381 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2021-12-28 22:31:32.253498 (MainThread): Parsing macros/cross_db_utils/except.sql
+2021-12-28 22:31:32.253993 (MainThread): Parsing macros/cross_db_utils/replace.sql
+2021-12-28 22:31:32.254679 (MainThread): Parsing macros/cross_db_utils/concat.sql
+2021-12-28 22:31:32.255146 (MainThread): Parsing macros/cross_db_utils/datatypes.sql
+2021-12-28 22:31:32.257800 (MainThread): Parsing macros/cross_db_utils/_is_relation.sql
+2021-12-28 22:31:32.258422 (MainThread): Parsing macros/cross_db_utils/length.sql
+2021-12-28 22:31:32.259032 (MainThread): Parsing macros/cross_db_utils/dateadd.sql
+2021-12-28 22:31:32.260434 (MainThread): Parsing macros/cross_db_utils/intersect.sql
+2021-12-28 22:31:32.260921 (MainThread): Parsing macros/cross_db_utils/right.sql
+2021-12-28 22:31:32.262054 (MainThread): Parsing macros/cross_db_utils/datediff.sql
+2021-12-28 22:31:32.267461 (MainThread): Parsing macros/cross_db_utils/safe_cast.sql
+2021-12-28 22:31:32.268346 (MainThread): Parsing macros/cross_db_utils/hash.sql
+2021-12-28 22:31:32.269014 (MainThread): Parsing macros/cross_db_utils/cast_bool_to_text.sql
+2021-12-28 22:31:32.269697 (MainThread): Parsing macros/cross_db_utils/identifier.sql
+2021-12-28 22:31:32.270482 (MainThread): Parsing macros/cross_db_utils/position.sql
+2021-12-28 22:31:32.271228 (MainThread): Parsing macros/cross_db_utils/literal.sql
+2021-12-28 22:31:32.271673 (MainThread): Parsing macros/cross_db_utils/current_timestamp.sql
+2021-12-28 22:31:32.273475 (MainThread): Parsing macros/cross_db_utils/width_bucket.sql
+2021-12-28 22:31:32.276323 (MainThread): Parsing macros/cross_db_utils/last_day.sql
+2021-12-28 22:31:32.278071 (MainThread): Parsing macros/cross_db_utils/split_part.sql
+2021-12-28 22:31:32.278969 (MainThread): Parsing macros/cross_db_utils/date_trunc.sql
+2021-12-28 22:31:32.279680 (MainThread): Parsing macros/cross_db_utils/_is_ephemeral.sql
+2021-12-28 22:31:32.280656 (MainThread): Parsing macros/materializations/insert_by_period_materialization.sql
+2021-12-28 22:31:32.294391 (MainThread): Parsing macros/web/get_url_host.sql
+2021-12-28 22:31:32.295392 (MainThread): Parsing macros/web/get_url_path.sql
+2021-12-28 22:31:32.296715 (MainThread): Parsing macros/web/get_url_parameter.sql
+2021-12-28 22:31:32.297483 (MainThread): Parsing macros/jinja_helpers/pretty_log_format.sql
+2021-12-28 22:31:32.298017 (MainThread): Parsing macros/jinja_helpers/pretty_time.sql
+2021-12-28 22:31:32.298597 (MainThread): Parsing macros/jinja_helpers/log_info.sql
+2021-12-28 22:31:32.299131 (MainThread): Parsing macros/jinja_helpers/slugify.sql
+2021-12-28 22:31:32.299707 (MainThread): Parsing macros/schema_tests/fewer_rows_than.sql
+2021-12-28 22:31:32.300579 (MainThread): Parsing macros/schema_tests/equal_rowcount.sql
+2021-12-28 22:31:32.301392 (MainThread): Parsing macros/schema_tests/relationships_where.sql
+2021-12-28 22:31:32.302522 (MainThread): Parsing macros/schema_tests/recency.sql
+2021-12-28 22:31:32.303457 (MainThread): Parsing macros/schema_tests/not_constant.sql
+2021-12-28 22:31:32.304059 (MainThread): Parsing macros/schema_tests/accepted_range.sql
+2021-12-28 22:31:32.305311 (MainThread): Parsing macros/schema_tests/not_accepted_values.sql
+2021-12-28 22:31:32.306401 (MainThread): Parsing macros/schema_tests/test_unique_where.sql
+2021-12-28 22:31:32.307100 (MainThread): Parsing macros/schema_tests/at_least_one.sql
+2021-12-28 22:31:32.307709 (MainThread): Parsing macros/schema_tests/unique_combination_of_columns.sql
+2021-12-28 22:31:32.309152 (MainThread): Parsing macros/schema_tests/cardinality_equality.sql
+2021-12-28 22:31:32.310168 (MainThread): Parsing macros/schema_tests/expression_is_true.sql
+2021-12-28 22:31:32.311063 (MainThread): Parsing macros/schema_tests/not_null_proportion.sql
+2021-12-28 22:31:32.312161 (MainThread): Parsing macros/schema_tests/sequential_values.sql
+2021-12-28 22:31:32.313586 (MainThread): Parsing macros/schema_tests/test_not_null_where.sql
+2021-12-28 22:31:32.314292 (MainThread): Parsing macros/schema_tests/equality.sql
+2021-12-28 22:31:32.316103 (MainThread): Parsing macros/schema_tests/mutually_exclusive_ranges.sql
+2021-12-28 22:31:32.321131 (MainThread): Parsing macros/sql/date_spine.sql
+2021-12-28 22:31:32.323557 (MainThread): Parsing macros/sql/nullcheck_table.sql
+2021-12-28 22:31:32.324346 (MainThread): Parsing macros/sql/get_relations_by_pattern.sql
+2021-12-28 22:31:32.326117 (MainThread): Parsing macros/sql/generate_series.sql
+2021-12-28 22:31:32.328315 (MainThread): Parsing macros/sql/get_relations_by_prefix.sql
+2021-12-28 22:31:32.330164 (MainThread): Parsing macros/sql/get_tables_by_prefix_sql.sql
+2021-12-28 22:31:32.330991 (MainThread): Parsing macros/sql/star.sql
+2021-12-28 22:31:32.332798 (MainThread): Parsing macros/sql/unpivot.sql
+2021-12-28 22:31:32.337075 (MainThread): Parsing macros/sql/union.sql
+2021-12-28 22:31:32.341573 (MainThread): Parsing macros/sql/groupby.sql
+2021-12-28 22:31:32.342225 (MainThread): Parsing macros/sql/surrogate_key.sql
+2021-12-28 22:31:32.343960 (MainThread): Parsing macros/sql/safe_add.sql
+2021-12-28 22:31:32.344747 (MainThread): Parsing macros/sql/nullcheck.sql
+2021-12-28 22:31:32.345545 (MainThread): Parsing macros/sql/get_tables_by_pattern_sql.sql
+2021-12-28 22:31:32.348940 (MainThread): Parsing macros/sql/get_column_values.sql
+2021-12-28 22:31:32.351569 (MainThread): Parsing macros/sql/pivot.sql
+2021-12-28 22:31:32.353704 (MainThread): Parsing macros/sql/get_query_results_as_dict.sql
+2021-12-28 22:31:32.354859 (MainThread): Parsing macros/sql/haversine_distance.sql
+2021-12-28 22:31:32.357886 (MainThread): Parsing macros/plugins/bigquery/create_external_table.sql
+2021-12-28 22:31:32.361065 (MainThread): Parsing macros/plugins/bigquery/get_external_build_plan.sql
+2021-12-28 22:31:32.362068 (MainThread): Parsing macros/plugins/snowflake/create_external_table.sql
+2021-12-28 22:31:32.364818 (MainThread): Parsing macros/plugins/snowflake/refresh_external_table.sql
+2021-12-28 22:31:32.366002 (MainThread): Parsing macros/plugins/snowflake/get_external_build_plan.sql
+2021-12-28 22:31:32.367826 (MainThread): Parsing macros/plugins/snowflake/snowpipe/create_snowpipe.sql
+2021-12-28 22:31:32.368671 (MainThread): Parsing macros/plugins/snowflake/snowpipe/create_empty_table.sql
+2021-12-28 22:31:32.369387 (MainThread): Parsing macros/plugins/snowflake/snowpipe/refresh_snowpipe.sql
+2021-12-28 22:31:32.370249 (MainThread): Parsing macros/plugins/snowflake/snowpipe/get_copy_sql.sql
+2021-12-28 22:31:32.371980 (MainThread): Parsing macros/plugins/snowflake/helpers/is_csv.sql
+2021-12-28 22:31:32.375128 (MainThread): Parsing macros/plugins/redshift/create_external_table.sql
+2021-12-28 22:31:32.376824 (MainThread): Parsing macros/plugins/redshift/refresh_external_table.sql
+2021-12-28 22:31:32.382458 (MainThread): Parsing macros/plugins/redshift/get_external_build_plan.sql
+2021-12-28 22:31:32.383389 (MainThread): Parsing macros/plugins/redshift/helpers/render_macro.sql
+2021-12-28 22:31:32.384638 (MainThread): Parsing macros/plugins/redshift/helpers/dropif.sql
+2021-12-28 22:31:32.385037 (MainThread): Parsing macros/plugins/redshift/helpers/add_partitions.sql
+2021-12-28 22:31:32.386942 (MainThread): Parsing macros/plugins/redshift/helpers/transaction.sql
+2021-12-28 22:31:32.387177 (MainThread): Parsing macros/plugins/redshift/helpers/paths.sql
+2021-12-28 22:31:32.388015 (MainThread): Parsing macros/plugins/redshift/helpers/is_ext_tbl.sql
+2021-12-28 22:31:32.389179 (MainThread): Parsing macros/plugins/sqlserver/create_external_table.sql
+2021-12-28 22:31:32.391231 (MainThread): Parsing macros/plugins/sqlserver/get_external_build_plan.sql
+2021-12-28 22:31:32.392522 (MainThread): Parsing macros/plugins/sqlserver/helpers/dropif.sql
+2021-12-28 22:31:32.393239 (MainThread): Parsing macros/plugins/spark/create_external_table.sql
+2021-12-28 22:31:32.395686 (MainThread): Parsing macros/plugins/spark/refresh_external_table.sql
+2021-12-28 22:31:32.396112 (MainThread): Parsing macros/plugins/spark/get_external_build_plan.sql
+2021-12-28 22:31:32.397159 (MainThread): Parsing macros/plugins/spark/helpers/dropif.sql
+2021-12-28 22:31:32.397551 (MainThread): Parsing macros/common/create_external_table.sql
+2021-12-28 22:31:32.398026 (MainThread): Parsing macros/common/refresh_external_table.sql
+2021-12-28 22:31:32.398509 (MainThread): Parsing macros/common/get_external_build_plan.sql
+2021-12-28 22:31:32.399012 (MainThread): Parsing macros/common/stage_external_sources.sql
+2021-12-28 22:31:32.404067 (MainThread): Parsing macros/common/helpers/dropif.sql
+2021-12-28 22:31:32.404550 (MainThread): Parsing macros/common/helpers/transaction.sql
+2021-12-28 22:31:32.602116 (MainThread): Acquiring new bigquery connection "model.dbt_rfm.fact_rfm".
+2021-12-28 22:31:32.606261 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2021-12-28 22:31:32.608238 (MainThread): Acquiring new bigquery connection "model.dbt_rfm.st_rfm".
+2021-12-28 22:31:32.610076 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2021-12-28 22:31:32.643429 (MainThread): Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cd671f18-ef17-414b-b044-38210dbb3bf2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1075db6d0>]}
+2021-12-28 22:31:32.647839 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2021-12-28 22:31:32.648020 (MainThread): Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'cd671f18-ef17-414b-b044-38210dbb3bf2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10746a160>]}
+2021-12-28 22:31:32.648140 (MainThread): Found 2 models, 0 tests, 0 snapshots, 0 analyses, 415 macros, 0 operations, 0 seed files, 1 source, 0 exposures
+2021-12-28 22:31:32.648688 (MainThread): 
+2021-12-28 22:31:32.648852 (MainThread): Acquiring new bigquery connection "master".
+2021-12-28 22:31:32.649253 (ThreadPoolExecutor-0_0): Acquiring new bigquery connection "list_vectux-01".
+2021-12-28 22:31:32.649401 (ThreadPoolExecutor-0_0): Opening a new connection, currently in state init
+2021-12-28 22:31:32.649545 (ThreadPoolExecutor-0_1): Acquiring new bigquery connection "list_vectux-01".
+2021-12-28 22:31:32.649722 (ThreadPoolExecutor-0_1): Opening a new connection, currently in state init
+2021-12-28 22:31:34.508560 (ThreadPoolExecutor-1_0): Acquiring new bigquery connection "list_vectux-01_dwh_staging".
+2021-12-28 22:31:34.509647 (ThreadPoolExecutor-1_1): Acquiring new bigquery connection "list_vectux-01_dwh".
+2021-12-28 22:31:34.510191 (ThreadPoolExecutor-1_0): Opening a new connection, currently in state closed
+2021-12-28 22:31:34.510550 (ThreadPoolExecutor-1_1): Opening a new connection, currently in state closed
+2021-12-28 22:31:34.511129 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2021-12-28 22:31:34.511433 (ThreadPoolExecutor-1_1): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2021-12-28 22:31:34.836788 (MainThread): 23:31:34 | Concurrency: 4 threads (target='dev')
+2021-12-28 22:31:34.837700 (MainThread): 23:31:34 | 
+2021-12-28 22:31:34.842542 (Thread-1): Began running node model.dbt_rfm.st_rfm
+2021-12-28 22:31:34.843081 (Thread-1): 23:31:34 | 1 of 2 START table model dwh_staging.st_rfm.......................... [RUN]
+2021-12-28 22:31:34.843592 (Thread-1): Acquiring new bigquery connection "model.dbt_rfm.st_rfm".
+2021-12-28 22:31:34.843864 (Thread-1): Compiling model.dbt_rfm.st_rfm
+2021-12-28 22:31:34.849988 (Thread-1): Writing injected SQL for node "model.dbt_rfm.st_rfm"
+2021-12-28 22:31:34.851187 (Thread-1): finished collecting timing info
+2021-12-28 22:31:34.874257 (Thread-1): Opening a new connection, currently in state closed
+2021-12-28 22:31:34.874542 (Thread-1): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2021-12-28 22:31:35.320434 (Thread-1): Writing runtime SQL for node "model.dbt_rfm.st_rfm"
+2021-12-28 22:31:35.321477 (Thread-1): On model.dbt_rfm.st_rfm: /* {"app": "dbt", "dbt_version": "0.21.1", "profile_name": "dbt_rfm", "target_name": "dev", "node_id": "model.dbt_rfm.st_rfm"} */
+
+
+  create or replace table `vectux-01`.`dwh_staging`.`st_rfm`
+  
+  
+  OPTIONS()
+  as (
+    
+
+WITH max_timestamp AS (
+  SELECT 
+    MAX(invoice_timestamp) AS max_timestamp
+  FROM `vectux-01`.`source`.`rfm_ext_dbt_table` 
+  WHERE customer is not null
+), grouped_values AS (
+  SELECT 
+    customer_id, 
+    MAX(invoice_timestamp) AS last_ordered_timestamp,
+    DATE_DIFF(max(max_timestamp.max_timestamp), MAX(invoice_timestamp), DAY) AS abs_recency_days,
+    COUNT(invoice_id) AS abs_count_freq,
+    SUM(price) AS abs_sum_price
+  FROM `vectux-01`.`source`.`rfm_ext_dbt_table` , max_timestamp
+  WHERE customer is not null
+  GROUP BY customer_id
+)
+
+SELECT 
+    customer_id, 
+    last_ordered_timestamp,
+    date(last_ordered_timestamp) AS last_ordered_date,
+    abs_recency_days,
+    abs_count_freq,
+    abs_sum_price,
+    ntile(4) OVER (ORDER BY abs_recency_days) AS value_recency,
+    ntile(4) OVER (ORDER BY abs_count_freq) AS value_frequency,
+    ntile(4) OVER (ORDER BY abs_sum_price) AS value_monetary
+  FROM grouped_values
+  );
+    
+2021-12-28 22:31:41.946458 (Thread-1): finished collecting timing info
+2021-12-28 22:31:41.947989 (Thread-1): Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'cd671f18-ef17-414b-b044-38210dbb3bf2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10771b8b0>]}
+2021-12-28 22:31:41.948946 (Thread-1): 23:31:41 | 1 of 2 OK created table model dwh_staging.st_rfm..................... [CREATE TABLE (1.8k rows, 9.8 MB processed) in 7.10s]
+2021-12-28 22:31:41.949287 (Thread-1): Finished running node model.dbt_rfm.st_rfm
+2021-12-28 22:31:41.950474 (Thread-3): Began running node model.dbt_rfm.fact_rfm
+2021-12-28 22:31:41.951132 (Thread-3): 23:31:41 | 2 of 2 START table model dwh.fact_rfm................................ [RUN]
+2021-12-28 22:31:41.951846 (Thread-3): Acquiring new bigquery connection "model.dbt_rfm.fact_rfm".
+2021-12-28 22:31:41.952234 (Thread-3): Compiling model.dbt_rfm.fact_rfm
+2021-12-28 22:31:41.955210 (Thread-3): unclosed <ssl.SSLSocket fd=9, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2a02:a210:2144:dc00:c5b7:afaf:8ff3:91ae', 52663, 0, 0), raddr=('2a00:1450:400e:810::200a', 443, 0, 0)>
+2021-12-28 22:31:41.955867 (Thread-3): unclosed <ssl.SSLSocket fd=10, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2a02:a210:2144:dc00:c5b7:afaf:8ff3:91ae', 52664, 0, 0), raddr=('2a00:1450:400e:810::200a', 443, 0, 0)>
+2021-12-28 22:31:41.956221 (Thread-3): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2a02:a210:2144:dc00:c5b7:afaf:8ff3:91ae', 52666, 0, 0), raddr=('2a00:1450:400e:802::200a', 443, 0, 0)>
+2021-12-28 22:31:41.956524 (Thread-3): unclosed <ssl.SSLSocket fd=11, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2a02:a210:2144:dc00:c5b7:afaf:8ff3:91ae', 52665, 0, 0), raddr=('2a00:1450:400e:802::200a', 443, 0, 0)>
+2021-12-28 22:31:41.956813 (Thread-3): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2a02:a210:2144:dc00:c5b7:afaf:8ff3:91ae', 52667, 0, 0), raddr=('2a00:1450:400e:802::200a', 443, 0, 0)>
+2021-12-28 22:31:41.961000 (Thread-3): Writing injected SQL for node "model.dbt_rfm.fact_rfm"
+2021-12-28 22:31:41.961948 (Thread-3): finished collecting timing info
+2021-12-28 22:31:41.965091 (Thread-3): Opening a new connection, currently in state init
+2021-12-28 22:31:41.965418 (Thread-3): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2021-12-28 22:31:42.256144 (Thread-3): Writing runtime SQL for node "model.dbt_rfm.fact_rfm"
+2021-12-28 22:31:42.258246 (Thread-3): On model.dbt_rfm.fact_rfm: /* {"app": "dbt", "dbt_version": "0.21.1", "profile_name": "dbt_rfm", "target_name": "dev", "node_id": "model.dbt_rfm.fact_rfm"} */
+
+
+  create or replace table `vectux-01`.`dwh`.`fact_rfm`
+  
+  
+  OPTIONS()
+  as (
+    
+
+WITH rfm_values AS (
+  SELECT 
+      customer_id, 
+      last_ordered_timestamp,
+      abs_recency_days,
+      abs_count_freq,
+      abs_sum_price,
+      ntile(4) OVER (ORDER BY abs_recency_days) AS value_recency,
+      ntile(4) OVER (ORDER BY abs_count_freq) AS value_frequency,
+      ntile(4) OVER (ORDER BY abs_sum_price) AS value_monetary
+  FROM `vectux-01`.`dwh_staging`.`st_rfm`
+) 
+
+SELECT 
+    customer_id,
+    last_ordered_timestamp,
+    value_recency,
+    value_frequency,
+    value_monetary,
+    value_recency || value_frequency || value_monetary AS rfm_concat,
+    (value_recency+value_frequency+value_monetary) AS rfm_final,
+    CASE 
+      WHEN (value_recency+value_frequency+value_monetary) >= 10 THEN 'awesome'
+      WHEN (value_recency+value_frequency+value_monetary) >= 7 THEN 'good'
+      WHEN (value_recency+value_frequency+value_monetary) >= 7 THEN 'bad'
+      ELSE 'horrible'
+    END AS rfm_category
+FROM rfm_values
+  );
+    
+2021-12-28 22:31:47.482825 (Thread-3): finished collecting timing info
+2021-12-28 22:31:47.484536 (Thread-3): Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'cd671f18-ef17-414b-b044-38210dbb3bf2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10771b6a0>]}
+2021-12-28 22:31:47.486198 (Thread-3): 23:31:47 | 2 of 2 OK created table model dwh.fact_rfm........................... [CREATE TABLE (1.8k rows, 83.2 KB processed) in 5.53s]
+2021-12-28 22:31:47.486839 (Thread-3): Finished running node model.dbt_rfm.fact_rfm
+2021-12-28 22:31:47.489920 (MainThread): Acquiring new bigquery connection "master".
+2021-12-28 22:31:47.491159 (MainThread): 23:31:47 | 
+2021-12-28 22:31:47.491681 (MainThread): 23:31:47 | Finished running 2 table models in 14.84s.
+2021-12-28 22:31:47.492169 (MainThread): Connection 'master' was properly closed.
+2021-12-28 22:31:47.492739 (MainThread): Connection 'model.dbt_rfm.st_rfm' was properly closed.
+2021-12-28 22:31:47.493298 (MainThread): Connection 'list_vectux-01_dwh' was properly closed.
+2021-12-28 22:31:47.494434 (MainThread): Connection 'model.dbt_rfm.fact_rfm' was properly closed.
+2021-12-28 22:31:47.513951 (MainThread): 
+2021-12-28 22:31:47.514277 (MainThread): Completed successfully
+2021-12-28 22:31:47.514527 (MainThread): 
+Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+2021-12-28 22:31:47.514860 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10747d9a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107613d30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107639cd0>]}
+2021-12-28 22:31:47.515199 (MainThread): Flushing usage events

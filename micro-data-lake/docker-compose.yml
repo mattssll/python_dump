@@ -1,0 +1,106 @@
+version: "3"
+#Micro Data Lake by @abxda
+services:
+  # Notebooks
+  jupyter:
+    build: ./services/jupyter-spark/
+    env_file:
+      - ./config/jupyter.env
+      - ./config/postgres.env
+      - ./config/superset_database.env
+      - ./config/airflow_database.env
+      - ./config/shared_database.env
+      - ./config/minio.env
+    restart: always
+    container_name: jupyter
+    volumes: 
+      - ./notebooks:/home/jovyan/work
+    ports:
+      - "8181:8888"
+    entrypoint: sh -c 'start-notebook.sh --NotebookApp.token=$$JUPYTER_PASSWORD'
+  # Relational SQL
+  postgres:
+    image: postgres
+    restart: always
+    container_name: postgres
+    env_file: 
+      - ./config/postgres.env
+      - ./config/superset_database.env
+      - ./config/airflow_database.env
+      - ./config/shared_database.env
+    volumes:
+      - postgres_volume:/var/lib/postgresql/data/
+      - ./services/postgresql/init/:/docker-entrypoint-initdb.d/  
+    ports:
+      - 5432:5432
+    restart: "always"
+  # Database explorer
+  pgadmin:
+    container_name: "pgadmin"
+    image: dpage/pgadmin4
+    env_file:
+      - ./config/pgadmin.env
+    volumes:
+        - pgadmin_volume:/root/.pgadmin
+    ports:
+      - 5050:80
+    restart: "always"
+  # Model Storage
+  minio:
+    container_name: "minio"
+    restart: "always"
+    image: minio/minio
+    env_file:
+        - ./config/minio.env
+    volumes:
+        - minio_volume:/data
+    ports:
+        - 9000:9000
+    command: server /data 
+  # API
+  fastapi:
+    container_name: "fastapi"
+    restart: "always"
+    build: services/fastapi
+    env_file:
+      - ./config/minio.env
+    volumes:
+      - ./services/fastapi/app:/app
+      - ./services/fastapi/html:/html
+    ports:
+      - 80:80
+  # Visualization
+  superset:
+    build: ./services/superset/
+    container_name: "superset"
+    restart: "always"
+    depends_on:
+        - postgres
+    env_file:
+        - ./config/superset_container.env
+        - ./config/superset_database.env
+    ports:
+      - 8088:8088
+  # Scheduling
+  airflow:
+    container_name: "airflow"
+    restart: "always"
+    build: services/airflow
+    depends_on:
+      - postgres
+    env_file:
+      - ./config/airflow_container.env
+      - ./config/minio.env
+      - ./config/shared_database.env
+    volumes:
+      - ./services/airflow/dags/:/usr/local/airflow/dags
+
+      - ./notebooks:/usr/local/airflow/data
+    ports:
+      - 7777:8080
+    command: webserver
+  # Volumnes
+volumes:
+  postgres_volume:
+  pgadmin_volume:
+  minio_volume:

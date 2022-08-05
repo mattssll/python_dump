@@ -1,0 +1,25 @@
+body{
+    background-color:gainsboro;
+}
+
+.firstdiv{
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+}
+
+.child{
+    display: inline-block;
+    justify-content: center;
+  }
+
+.btn-login{
+    background-color: rgb(28, 27, 27);
+    margin-left:15px;
+    margin-right:10px;
+}
+.logoutlink{
+    position: relative;
+    color: red;
+    float: right;
+}

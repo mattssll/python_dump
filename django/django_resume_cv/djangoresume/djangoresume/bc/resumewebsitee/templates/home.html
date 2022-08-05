@@ -1,0 +1,186 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mateus Leao - Curriculum Vitae</title>
+
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="The Curriculum Vitae of Joe Bloggs."/>
+<meta charset="UTF-8"> 
+
+<link type="text/css" rel="stylesheet" href="{% static 'css/style.css' %}">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body id="top">
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		<div id="headshot" class="quickFade">
+			<img src="{% static 'images/headshot.jpg' %}" alt="Alan Smith" />
+		</div>
+		
+		<div id="name">
+			<h1 class="quickFade delayTwo">Mateus Leao</h1>
+			<h2 class="quickFade delayThree">Data Engineer/Python Developer</h2>
+		</div>
+		
+		<div id="contactDetails" class="quickFade delayFour">
+			<ul>
+				<li>e-mail: <a href="mailto:joe@bloggs.com" target="_blank">mateusleao81@gmail.com</a></li>
+				<li>linkedin: <a href="https://www.linkedin.com/in/mateus-s-leao/">click here!</a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="mainArea" class="quickFade delayFive">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Personal Profile</h1>
+				</div>
+				
+				<div class="sectionContent">
+					<p>I'm a Data Wizard, and I've been working as a Data Engineer for the past months. I love teaching & learning and am constantly looking for challenges and for problems to solve. <br>I'm a great Python Developer who's wanting to learn more, and a Data Scientist.
+						
+						The things that interest me the most are back-end programming (node.js, java, python), and Machine Learning and Artificial Intelligence.
+					</p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Key Skills</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li>Python</li>
+					<li>Visualizations (Tableau, PowerBI)</li>
+					<li>Statistics & Advanced Analytics</li>
+					<li>SQL Databases</li>
+					<li>MongoDB</li>
+					<li>Big Data/Hadoop</li>
+					<li>Cloud Engineering (GCP, AWS (Basics))</li>
+					<li>Soft Skills</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>		
+
+
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Work Experience</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>Data Engineer @ yalochat.com</h2>
+					<p class="subDetails">July 2020 - Present</p>
+					<p>Yalochat is an Artificial Intelligence Platform for customer service that helps businesses to offer a delightful experience for their customers in their 
+						favorite apps (Facebook Messenger,WhatsApp, and WeChat) Yalo has raised USD $10M and $15M in two 
+						funding rounds and is expanding to LATAM and Asia.<br>
+						The "Data & Insights Team" is responsible for the end-to-end delivery of Data-Driven Products & Solutions for internal and external costumers. In terms of tools & technologies we use the Google Cloud Platform (GCP) as our environment, and we work mostly with Big Data, Streaming of Data (Kafka), Airflow/Composer, SQL and NO-SQL DB's, BI & Analytics, Streamsets, etc etc.
+					</p>
+				</article>
+				
+				<article>
+					<h2>Teaching Assistant in a Data BootCamp (@University Tecnológico de Monterrey)</h2>
+					<p class="subDetails">February 2020 - August 2020</p>
+					<ul style="list-style-type:none;">
+						6 Months Boot Camp @ Mexico City - Helping Students to Learn:
+							<li>Python </li>
+							<li>R</li>
+							<li>SQL & MongoDB</li>
+							<li>HTML/CSS</li>
+							<li>Javascript and D3</li>
+							<li>Git/GitHub</li>
+							<li>APIs in Python</li>
+							<li>Big Data/Spark/MongoDB</li>
+							<li>AWS</li>
+							<li>Tableau</li>
+							<li>Machine Learning & Deep Learning</li>
+					</ul>
+					
+				</article>
+				
+				<article>
+					<h2>Data & Analytics Sr. Analyst - Team Lead | Corporate Security @Dell Technologies</h2>
+					<p class="subDetails">May 2019 - July 2020</p>
+					<p class="subDetails">Dell in 2018, other roles: BI Analyst for Customer Experience, HR Data Analyst/Recruiter</p>
+			<ul style="list-style-type:none;">
+				Working within Dell's Security and Resilience Organization to leverage and utilize the power of Data:
+					<li>Head of the Data & Analytics Program for Physical Security - Creation & Implementation </li>
+					<li>Data Architecture & Warehousing (SQL Server + SSIS for ETL)</li>
+					<li>Supporting in the Architecture & Development of Enterprise System & Applications</li>
+					<li>Mature Data & Analytics inside the Organization</li>
+					<li>Cyber-Security Awareness</li>
+					<li>Build Dashboards to display different Datasets generating knowledge to drive Actions</li>
+					<li>Create Content for Executive Ops. Review & Meetings</li>
+					<li>Create and/or consolidate Key Performance Indicators (KPIs) for the area</li>
+					<li>Coordinate two interns</li>
+			</ul>
+			<br>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		
+
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Education</h1>
+			</div>
+
+			<div class="sectionContent">
+				<article>
+					<h2>University of Texas - Computer Science Master (Applying)</h2>
+					<p class="subDetails">Applying for a Computer Science Master in 2021</p>
+					<p>Main topics: Software Engineering & ML/AI</p>
+				</article>
+			</div>
+							
+			<div class="sectionContent">
+				<article>
+					<h2>Pontificia Universidade Católica - Brazil</h2>
+					<p class="subDetails">Industrial Engineer - Graduated: 2012-2017</p>
+					<p>Main topics: Math, Statistics, Management, Business Administration, Strategy, Logistics, Project Management</p>
+				</article>
+				
+				<article>
+					<h2>Federal University of RS (UFRGS) - Brazil</h2>
+					<p class="subDetails">Incomplete Degree - 2013-2018</p>
+				</article>
+
+				<article>
+					<h2>Federal Institute of RS (IFRS) - Brazil</h2>
+					<p class="subDetails">High School and IT Technician</p>
+					<p>In this 4 year High School (from 13 to 17) I've the normal subjects (math, portuguese, english, biology, etc), and I've also studied Programming Languages, Networks, Computer Architecture, and Databases.</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+	</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3753241-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

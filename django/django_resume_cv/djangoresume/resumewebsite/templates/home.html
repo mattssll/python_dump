@@ -1,0 +1,231 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mateus Leao - Curriculum Vitae</title>
+
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="The Curriculum Vitae of Joe Bloggs."/>
+<meta charset="UTF-8"> 
+
+<link type="text/css" rel="stylesheet" href="{% static 'css/style.css' %}">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body id="top">
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		<div id="headshot" class="quickFade">
+			<img src="{% static 'images/headshot.jpg' %}" alt="Alan Smith" />
+		</div>
+		
+		<div id="name">
+			<h1 class="quickFade delayTwo">Mateus Leao</h1>
+			<h2 class="quickFade delayThree titleblue">Data Engineer/Python Developer</h2>
+			<p>Hello World!</p>
+		</div>
+		
+		<div id="contactDetails" class="quickFade delayFour">
+			<ul>
+				<li>
+					<img src='https://www.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-circle-512.png'
+					style="width:16px;height:16px;"></img>
+					E-mail: <a href="mailto:mateusleao81@gmail.com" target="_blank">mateusleao81@gmail.com</a></li>
+				<li><img src='https://cdn.iconscout.com/icon/free/png-256/email-2155119-1814289.png'
+					style="width:16px;height:16px;"></img>Linkedin: <a href="https://www.linkedin.com/in/mateus-s-leao/">click here!</a></li>
+				<li>
+					<img src='https://www.flaticon.es/svg/static/icons/svg/25/25231.svg'
+					style="width:16px;height:16px;"></img>
+					Github: <a href="https://github.com/mattssll">click here!</a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="mainArea" class="quickFade delayFive">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Personal Profile</h1>
+				</div>
+				
+				<div class="sectionContent">
+					<p>Nice to meet you!, - I'm a Python Developer and Data Wizard (Engineer) - I have worked for Dell Technologies,
+						and currently I've been working as a Data Engineer in yalochat.com (AI Conversational SaaS).
+						My background is in Industrial Engineering, which means I'm very business oriented, and am always looking for improvement 
+						- in terms of my personality at work, I happen to be someone that enjoys driving projects, building things, and building collaborative relationships.
+						Something I love doing is teaching & learning, and even though my studies nowadays are mostly tech-related, I also happen to like Philosophy and Literature.<br>
+					</p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Key Skills</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li>Python</li>
+					<li>Visualizations - Tableau, Plotly, D3.Js</li>
+					<li>Statistics & Advanced Analytics</li>
+					<li>SQL Databases</li>
+					<li>MongoDB</li>
+					<li>Big Data/Hadoop</li>
+					<li>Cloud Engineering</li>
+					<li>Soft Skills</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>		
+
+
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Work Experience</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>Data Engineer @ <a href='https://yalochat.com'>yalochat.com</a></h2>
+					<p class="subDetails">July 2020 - Present</p>
+					<p>Yalochat is an Artificial Intelligence Platform for customer service that helps businesses to offer a delightful experience for their customers in their 
+						favorite apps (Facebook Messenger,WhatsApp, and WeChat) Yalo has raised USD $10M and $15M in two 
+						funding rounds and is expanding to LATAM and Asia.<br>
+						The "Data & Insights Team" is responsible for the end-to-end delivery of Data-Driven Products & Solutions for internal and external costumers. In terms of tools & technologies we use the Google Cloud Platform (GCP) as our environment, and we work mostly with Big Data, Streaming of Data (Kafka), Airflow/Composer, SQL and NO-SQL DB's, BI & Analytics, Streamsets, etc etc.
+					</p>
+				</article>
+				
+				<article>
+					<h2>Teaching Assistant in a Data BootCamp (@University Tecnológico de Monterrey)</h2>
+					<p class="subDetails">February 2020 - August 2020</p>
+					<ul style="list-style-type:none;">
+						6 Months Boot Camp @ Mexico City - Helping Students to Learn:
+							<li>Python </li>
+							<li>R</li>
+							<li>SQL & MongoDB</li>
+							<li>HTML/CSS</li>
+							<li>Javascript and D3</li>
+							<li>Git/GitHub</li>
+							<li>APIs in Python</li>
+							<li>Big Data/Spark/MongoDB</li>
+							<li>AWS</li>
+							<li>Tableau</li>
+							<li>Machine Learning & Deep Learning</li>
+					</ul>
+					
+				</article>
+				
+				<article>
+					<h2>Dell Technologies - Last Role: Data & Analytics Sr. Analyst - Team Lead | Global Scope </h2>
+					<p class="subDetails">Started in Dell in Oct 2017 - July 2020</p>
+					<p>I had three roles in Dell, the last one was as a Sr. Data & BI Analyst, I got really good with Python, SQL and Tableau here, and developed a model (the inverse-risk matrix, it got famous) that was of HUGE importance for Dell related to COVID - it was used to stop international travels, to go full remote, and then to start reopening sites, you can see more about, since it got public:  
+						<a href="https://www.hitechcentury.com/dell-inversed-risk-matrix/">here</a> <br>
+						<br><b>My second role </b> in Dell is when I moved to Mexico, I started here as a Business Intelligence Analyst, working with Customer Experience and cNPS Topics. The project of more relevance here was adding financial information to customer net promoter score information, with that I built a Dashboard that would show all of Dell's big clients, it would show how much of margin and revenue they bring, and how satisfied they were with Dell.
+						 I had to talk with many directors to show them how they could improve recovering big unsatisfied clients.
+						<br>
+						or here: <a href="https://www.bworldonline.com/at-least-50-of-dell-to-work-from-home-post-covid/">here</a>. 
+						for a year I was a Human Resources Intern, in this role I worked with Talent Acquisition, mostly buillding dashboards and analyzing data. In this role I started a Project to help Interns build their career inside Dell - it escalated to all Interns in HR.
+						
+					</p>
+			<ul style="list-style-type:none;">
+				
+			</ul>
+			<br>
+				</article>
+
+
+			
+
+
+
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		
+
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Education</h1>
+			</div>
+
+			<div class="sectionContent">
+				<article>
+					<p class="subDetails">Applying for a Computer Science Master in 2021 -University of Texas, Online Degree</p>
+					<p>Main topics: Software Engineering & ML/AI</p>
+				</article>
+			</div>
+							
+			<div class="sectionContent">
+				<article>
+					<h2>Pontificia Universidade Católica - Brazil</h2>
+					<p class="subDetails">Industrial Engineer - Graduated: 2012-2017</p>
+					<p>Main topics: Math, Statistics, Management, Business Administration, Strategy, Logistics, Project Management</p>
+				</article>
+				
+				<article>
+					<h2>Federal University of RS (UFRGS) - Brazil</h2>
+					<p class="subDetails">Incomplete Degree - 2013-2018</p>
+				</article>
+
+				<article>
+					<h2>Federal Institute of RS (IFRS) - Brazil</h2>
+					<p class="subDetails">High School and IT Technician</p>
+					<p>In this 4 year High School (from 13 to 17) I've the normal subjects (math, portuguese, english, biology, etc), and I've also studied Programming Languages, Networks, Computer Architecture, and Databases.</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Certifications/<br>Courses/<br>Studies -<br>see it in <a href="https://www.linkedin.com/in/mateus-s-leao/"> my linkedin!</a> </h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li>Dell/EMC Cert. - Data Science Associate</li>
+					<li>Dell/EMC Cert. - Data Engineer Specialist</li>
+					<li>Dell/EMC Cert.- Cloud Infrastructure and Services Associate</li>
+					<li>Specialization - Udacity NanoDegree - Data Engineering in AWS</li>
+					<li>Specialization - Agile (Scrum) Development</li>
+					<li>Specialization - Applied Data Science with Python</li>
+					<li>Specialization - Cyber Security</li>
+					<li>Course - SQL For Data Science</li>
+					<li><a href="https://crudformapp.herokuapp.com/"></a>Project - Small Py/Flask/MySQL App</a> </h1></li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		
+
+	</div>
+	<article class="footer">
+		<div>
+			<p pfooter>Hope you enjoyed it, thanks for the attention!</p>
+		</div>
+	</article>		
+
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3753241-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

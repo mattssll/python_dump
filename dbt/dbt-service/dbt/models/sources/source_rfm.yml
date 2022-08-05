@@ -1,0 +1,35 @@
+version: 2
+sources:
+  - name: source
+    loader: gcloud storage
+    database: vectux-01
+    tables:
+      - name: rfm_ext_dbt_table
+        external:
+          location: 'gs://rfm-vectux-customers/customer/*'
+          options:
+            format: csv
+            allow_jagged_rows: true
+            allow_quoted_newlines: true
+            hive_partition_uri_prefix: gs://rfm-vectux-customers/customer/
+            require_hive_partition_filter: true
+            max_bad_records: 100
+            skip_leading_rows: 1
+          partitions:       # optional
+            - name: customer
+              data_type: string
+        columns: 
+          - name: invoice_id
+            data_type: string
+          - name: invoice_timestamp
+            data_type: timestamp
+          - name: price
+            data_type: numeric
+          - name: customer_id
+            data_type: string 
+          - name: country_id
+            data_type: string
+        
+
+          
+
