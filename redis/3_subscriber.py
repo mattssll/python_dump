@@ -1,14 +1,15 @@
 # subscriber.py
 import redis
 import time
+from conn import redis_connect
 
 
-r = redis.Redis(host='localhost', port=6379, db=0)
+r = redis_connect()
+
 
 p = r.pubsub()
-
-# p.subscribe('user-1')  # subscribe to user-1 channel
 p.psubscribe('user-*')  # subscribe to all user-* channels, where * is a wildcard
+
 
 while True:
   message = p.get_message()

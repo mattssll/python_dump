@@ -2,6 +2,11 @@
 
 From <a href='https://www.rabbitmq.com/getstarted.html'> here </a>
 
+### Index
+1. Covers writing a simple producer and a simple consumer ussing rabbitmq
+2. Work queues: durable queue and message acknowledgement. Tasks distributed by many workers.
+3. Pub/Sub pattern where multiple consumers can subscribe to the same topic. Exchange > Is Bind to > Queue
+
 ## 1. Hello World
 
 One producer sending messages to a single queue, single subscriber picking it up.

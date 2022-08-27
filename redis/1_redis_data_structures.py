@@ -1,5 +1,5 @@
 import redis 
-from client import redis_connect
+from conn import redis_connect
 
 redis = redis_connect()
 

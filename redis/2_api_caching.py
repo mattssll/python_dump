@@ -1,6 +1,6 @@
-from client import redis_connect
 import requests
 import json
+from conn import redis_connect
 
 
 redis = redis_connect()
