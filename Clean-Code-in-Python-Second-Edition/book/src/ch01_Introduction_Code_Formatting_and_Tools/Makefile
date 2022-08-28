@@ -6,7 +6,7 @@ typehint:
 
 .PHONY: test
 test:
-	pytest tests/
+	pytest src
 
 .PHONY: lint
 lint:

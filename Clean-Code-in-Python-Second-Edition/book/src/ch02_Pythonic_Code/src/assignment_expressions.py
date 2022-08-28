@@ -8,7 +8,7 @@ from typing import Iterable, Set
 ARN_REGEX = re.compile(r"arn:aws:[a-z0-9\-]*:[a-z0-9\-]*:(?P<account_id>\d+):.*")
 
 
-def collect_account_ids_from_arns(arns: Iterable[str]) -> Set[str]:
+def collect_account_ids_from_arns(arns: Iterable[str]) -> Set[str]:  # without comprehensions, not optimal
     """Given several ARNs in the form
 
         arn:partition:service:region:account-id:resource-id
@@ -25,10 +25,11 @@ def collect_account_ids_from_arns(arns: Iterable[str]) -> Set[str]:
 
 
 def collect_account_ids_from_arns2(arns: Iterable[str]) -> Set[str]:
-    matched_arns = filter(None, (re.match(ARN_REGEX, arn) for arn in arns))
-    return {m.groupdict()["account_id"] for m in matched_arns}
+    matched_arns = filter(None, (re.match(ARN_REGEX, arn) for arn in arns))  # filter out None
+    return {m.groupdict()["account_id"] for m in matched_arns}  # exctract values from matched_arns iterator
 
 
+# with assignment expressions (new python feature on 3.8 - pep-0572)
 def collect_account_ids_from_arns3(arns: Iterable[str]) -> Set[str]:
     return {
         matched.groupdict()["account_id"]

@@ -1,5 +1,9 @@
 """Indexes and slices
 Getting elements by an index or range
+Indexes goes from:to, inclusive:non-inclusive 
+We an make a copy with myArr[::]
+">>>" are doctests
+myArr[1:5:2] is the same as myArr[slice(1, 5, 2)]
 """
 import doctest
 
