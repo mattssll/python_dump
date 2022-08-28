@@ -6,7 +6,8 @@ from datetime import timedelta
 
 
 class DateRangeIterable:
-    """An iterable that contains its own iterator object."""
+    """An iterable that contains its own iterator object.
+    Issue is it can't be used more than once"""
 
     def __init__(self, start_date, end_date):
         self.start_date = start_date
@@ -25,7 +26,8 @@ class DateRangeIterable:
 
 
 class DateRangeContainerIterable:
-    """An range that builds its iteration through a generator."""
+    """An range that builds its iteration through a generator - no need to have the __next__ method
+    Is Not Indexable"""
 
     def __init__(self, start_date, end_date):
         self.start_date = start_date
@@ -39,7 +41,8 @@ class DateRangeContainerIterable:
 
 
 class DateRangeSequence:
-    """An range created by wrapping a sequence."""
+    """An range created by wrapping a sequence (put all elements in a list).
+    Is Indexable in O(1) thanks to __getitem__"""
 
     def __init__(self, start_date, end_date):
         self.start_date = start_date

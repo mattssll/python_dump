@@ -3,10 +3,7 @@
 > Caveats in Python
 """
 
-from collections import UserList
-
-
-def wrong_user_display(user_metadata: dict = {"name": "John", "age": 30}):
+def wrong_user_display(user_metadata: dict = {"name": "John", "age": 30}):  # creates dict only once and can't be called two times
     name = user_metadata.pop("name")
     age = user_metadata.pop("age")
 
@@ -32,6 +29,8 @@ class BadList(list):
         return f"[{prefix}] {value}"
 
 
+from collections import UserList
+
 class GoodList(UserList):
     def __getitem__(self, index):
         value = super().__getitem__(index)
@@ -40,3 +39,14 @@ class GoodList(UserList):
         else:
             prefix = "odd"
         return f"[{prefix}] {value}"
+
+
+def main():
+    gl = GoodList((0,1,2,3))
+    # below's for loop would not work for previous implementation
+    for item in gl:
+        print(item)
+    
+
+if __name__ == "__main__":
+    main()
